@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.503">
+    <testcase classname="Verizon Message+ application" name="Verifying Start Messaging and Skip Provisioning Test Scenario" time="0.187">
+        <system-out>
+            <![CDATA[Given Message+ application is launched......................................passed
+When user click on start Messaging option...................................passed
+And user click on Skip Provisioning option..................................passed
+Then user is on New feature:Add to favorites screen.........................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

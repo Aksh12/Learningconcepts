@@ -1,0 +1,15 @@
+package rough;
+
+import org.testng.annotations.Test;
+
+import base.TestBase;
+
+public class Testing extends TestBase{
+
+	@Test
+	public void testRough() {
+		
+		System.out.println("ABC");
+	}
+	
+}

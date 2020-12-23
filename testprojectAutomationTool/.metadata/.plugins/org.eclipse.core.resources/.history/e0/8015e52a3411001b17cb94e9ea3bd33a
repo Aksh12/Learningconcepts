@@ -1,0 +1,19 @@
+package webappapu;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+public class firfoxdriver {
+
+	public static void main(String[] args) {
+	
+		FirefoxDriver driver = new FirefoxDriver();
+		System.setProperty("webdriver.gecko.driver","D:\\2.Learning_Paths\\eclipse-workspace\\testprojectAutomationTool\\webappapu\\src\\test\\resources\\firefox\\geckodriver.exe" );  
+		DesiredCapabilities capabilities = DesiredCapabilities.firefox();  
+	    capabilities.setCapability("marionette",true);  
+		driver.navigate().to("https://www.google.com");
+
+	}
+
+}

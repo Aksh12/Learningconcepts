@@ -1,0 +1,17 @@
+package base;
+
+
+import io.testproject.sdk.drivers.android.AndroidDriver;
+import io.appium.java_client.MobileElement;
+
+public class ScreenBase {
+	
+	public  AndroidDriver<MobileElement> driver ;
+	//public static WebDriverWait wait;
+	
+	public ScreenBase(AndroidDriver  driver) {
+		this.driver=driver;
+	}
+	}
+
+

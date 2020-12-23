@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test1">
+      
+      <groups>
+          <define name="All food">
+          <include name="Snack"></include>
+          <include name="Lunch"></include>
+          <include name="Dinner"></include>
+          </define>
+          
+          <define name="Dinner">
+          <include name ="Dinner"></include>
+          </define>
+      </groups>
+      
+      <run>
+          <exclude name="Dinner"></exclude>
+      </run>
+      
+    <classes>
+      <class name="otherFeatures.GroupingExample"/>>
+      </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

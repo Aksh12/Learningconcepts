@@ -1,0 +1,168 @@
+2020-08-27 12:13:22:006 [Appium] Welcome to Appium v1.15.1
+2020-08-27 12:13:22:007 [Appium] Non-default server args:
+2020-08-27 12:13:22:008 [Appium]   logFile: D:\2.Learning_Paths\eclipse-workspace\testprojectAutomationTool\com.fittr.app\src\test\resources\logs\logs.txt
+2020-08-27 12:13:22:009 [Appium]   localTimezone: true
+2020-08-27 12:13:22:205 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2020-08-27 12:13:22:569 [HTTP] --> GET /wd/hub/status
+2020-08-27 12:13:22:570 [HTTP] {}
+2020-08-27 12:13:22:573 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2020-08-27 12:13:22:575 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.15.1"}}
+2020-08-27 12:13:22:632 [HTTP] <-- GET /wd/hub/status 200 43 ms - 68
+2020-08-27 12:13:22:632 [HTTP] 
+2020-08-27 12:13:25:176 [HTTP] --> POST /wd/hub/session
+2020-08-27 12:13:25:177 [HTTP] {"desiredCapabilities":{"appActivity":"com.squats.fittr.onboarding.NewOnBoardingActivity","appPackage":"com.squats.fittr","platformName":"Android","deviceName":"android","platformVersion":"10"},"capabilities":{"firstMatch":[{"appium:appActivity":"com.squats.fittr.onboarding.NewOnBoardingActivity","appium:appPackage":"com.squats.fittr","appium:deviceName":"android","platformName":"android","appium:platformVersion":"10"}]}}
+2020-08-27 12:13:25:178 [W3C] Calling AppiumDriver.createSession() with args: [{"appActivity":"com.squats.fittr.onboarding.NewOnBoardingActivity","appPackage":"com.squats.fittr","platformName":"Android","deviceName":"android","platformVersion":"10"},null,{"firstMatch":[{"appium:appActivity":"com.squats.fittr.onboarding.NewOnBoardingActivity","appium:appPackage":"com.squats.fittr","appium:deviceName":"android","platformName":"android","appium:platformVersion":"10"}]}]
+2020-08-27 12:13:25:179 [BaseDriver] Event 'newSessionRequested' logged at 1598510605179 (12:13:25 GMT+0530 (India Standard Time))
+2020-08-27 12:13:25:199 [Appium] 
+2020-08-27 12:13:25:200 [Appium] ======================================================================
+2020-08-27 12:13:25:200 [Appium]   DEPRECATION WARNING:
+2020-08-27 12:13:25:201 [Appium] 
+2020-08-27 12:13:25:201 [Appium]   The 'automationName' capability was not provided in the desired 
+2020-08-27 12:13:25:202 [Appium]   capabilities for this Android session
+2020-08-27 12:13:25:202 [Appium] 
+2020-08-27 12:13:25:203 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2020-08-27 12:13:25:204 [Appium]   UiAutomator2 Driver
+2020-08-27 12:13:25:204 [Appium] 
+2020-08-27 12:13:25:204 [Appium]   The next major version of Appium (2.x) will **require** the 
+2020-08-27 12:13:25:205 [Appium]   'automationName' capability to be set for all sessions on all 
+2020-08-27 12:13:25:205 [Appium]   platforms
+2020-08-27 12:13:25:206 [Appium] 
+2020-08-27 12:13:25:206 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2020-08-27 12:13:25:207 [Appium]   'automationName=UiAutomator1'
+2020-08-27 12:13:25:207 [Appium] 
+2020-08-27 12:13:25:208 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2020-08-27 12:13:25:209 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2020-08-27 12:13:25:210 [Appium] 
+2020-08-27 12:13:25:210 [Appium]   For more information about drivers, please visit 
+2020-08-27 12:13:25:211 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2020-08-27 12:13:25:211 [Appium]   'Drivers' menu
+2020-08-27 12:13:25:211 [Appium] 
+2020-08-27 12:13:25:212 [Appium] ======================================================================
+2020-08-27 12:13:25:212 [Appium] 
+2020-08-27 12:13:27:204 [Appium] Appium v1.15.1 creating new AndroidUiautomator2Driver (v1.37.2) session
+2020-08-27 12:13:27:208 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2020-08-27 12:13:27:208 [BaseDriver] Creating session with W3C capabilities: {
+2020-08-27 12:13:27:209 [BaseDriver]   "alwaysMatch": {
+2020-08-27 12:13:27:209 [BaseDriver]     "platformName": "android",
+2020-08-27 12:13:27:209 [BaseDriver]     "appium:appActivity": "com.squats.fittr.onboarding.NewOnBoardingActivity",
+2020-08-27 12:13:27:209 [BaseDriver]     "appium:appPackage": "com.squats.fittr",
+2020-08-27 12:13:27:210 [BaseDriver]     "appium:deviceName": "android",
+2020-08-27 12:13:27:210 [BaseDriver]     "appium:platformVersion": "10"
+2020-08-27 12:13:27:210 [BaseDriver]   },
+2020-08-27 12:13:27:210 [BaseDriver]   "firstMatch": [
+2020-08-27 12:13:27:211 [BaseDriver]     {}
+2020-08-27 12:13:27:211 [BaseDriver]   ]
+2020-08-27 12:13:27:211 [BaseDriver] }
+2020-08-27 12:13:27:223 [BaseDriver] Session created with session id: 3c55fbc6-382c-4d88-8aff-ca0973a1f30d
+2020-08-27 12:13:27:224 [UiAutomator2] Starting 'com.squats.fittr' directly on the device
+2020-08-27 12:13:27:774 [ADB] Found 2 'build-tools' folders under 'C:\Users\akshay.s\AppData\Local\Android\Sdk\' (newest first):
+2020-08-27 12:13:27:775 [ADB]     C:/Users/akshay.s/AppData/Local/Android/Sdk/build-tools/30.0.0-rc1
+2020-08-27 12:13:27:776 [ADB]     C:/Users/akshay.s/AppData/Local/Android/Sdk/build-tools/29.0.3
+2020-08-27 12:13:27:778 [ADB] Using 'adb.exe' from 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2020-08-27 12:13:27:779 [AndroidDriver] Retrieving device list
+2020-08-27 12:13:27:780 [ADB] Trying to find a connected android device
+2020-08-27 12:13:27:783 [ADB] Getting connected devices...
+2020-08-27 12:13:28:252 [ADB] No connected devices have been detected
+2020-08-27 12:13:28:253 [ADB] Could not find devices, restarting adb server...
+2020-08-27 12:13:28:253 [ADB] Restarting adb
+2020-08-27 12:13:28:253 [ADB] Killing adb server on port 5037
+2020-08-27 12:13:28:255 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 kill-server'
+2020-08-27 12:13:28:547 [ADB] Getting connected devices...
+2020-08-27 12:13:30:726 [ADB] No connected devices have been detected
+2020-08-27 12:13:30:726 [ADB] Could not find devices, restarting adb server...
+2020-08-27 12:13:30:727 [ADB] Restarting adb
+2020-08-27 12:13:30:727 [ADB] Killing adb server on port 5037
+2020-08-27 12:13:30:728 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 kill-server'
+2020-08-27 12:13:30:996 [ADB] Getting connected devices...
+2020-08-27 12:13:33:142 [ADB] No connected devices have been detected
+2020-08-27 12:13:33:142 [ADB] Could not find devices, restarting adb server...
+2020-08-27 12:13:33:143 [ADB] Restarting adb
+2020-08-27 12:13:33:143 [ADB] Killing adb server on port 5037
+2020-08-27 12:13:33:144 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 kill-server'
+2020-08-27 12:13:33:418 [ADB] Getting connected devices...
+2020-08-27 12:13:35:566 [ADB] No connected devices have been detected
+2020-08-27 12:13:35:567 [ADB] Could not find devices, restarting adb server...
+2020-08-27 12:13:35:567 [ADB] Restarting adb
+2020-08-27 12:13:35:568 [ADB] Killing adb server on port 5037
+2020-08-27 12:13:35:568 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 kill-server'
+2020-08-27 12:13:35:831 [ADB] Getting connected devices...
+2020-08-27 12:13:37:973 [ADB] No connected devices have been detected
+2020-08-27 12:13:37:974 [ADB] Could not find devices, restarting adb server...
+2020-08-27 12:13:37:974 [ADB] Restarting adb
+2020-08-27 12:13:37:975 [ADB] Killing adb server on port 5037
+2020-08-27 12:13:37:975 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 kill-server'
+2020-08-27 12:13:38:263 [ADB] Getting connected devices...
+2020-08-27 12:13:40:500 [ADB] No connected devices have been detected
+2020-08-27 12:13:40:501 [ADB] Could not find devices, restarting adb server...
+2020-08-27 12:13:40:502 [ADB] Restarting adb
+2020-08-27 12:13:40:502 [ADB] Killing adb server on port 5037
+2020-08-27 12:13:40:503 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 kill-server'
+2020-08-27 12:13:40:793 [ADB] Getting connected devices...
+2020-08-27 12:13:42:941 [ADB] No connected devices have been detected
+2020-08-27 12:13:42:941 [ADB] Could not find devices, restarting adb server...
+2020-08-27 12:13:42:942 [ADB] Restarting adb
+2020-08-27 12:13:42:942 [ADB] Killing adb server on port 5037
+2020-08-27 12:13:42:943 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 kill-server'
+2020-08-27 12:13:43:218 [ADB] Getting connected devices...
+2020-08-27 12:13:45:389 [ADB] No connected devices have been detected
+2020-08-27 12:13:45:390 [ADB] Could not find devices, restarting adb server...
+2020-08-27 12:13:45:390 [ADB] Restarting adb
+2020-08-27 12:13:45:390 [ADB] Killing adb server on port 5037
+2020-08-27 12:13:45:391 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 kill-server'
+2020-08-27 12:13:45:666 [ADB] Getting connected devices...
+2020-08-27 12:13:47:842 [ADB] No connected devices have been detected
+2020-08-27 12:13:47:842 [ADB] Could not find devices, restarting adb server...
+2020-08-27 12:13:47:843 [ADB] Restarting adb
+2020-08-27 12:13:47:843 [ADB] Killing adb server on port 5037
+2020-08-27 12:13:47:843 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 kill-server'
+2020-08-27 12:13:48:129 [ADB] Could not find devices, restarting adb server...
+2020-08-27 12:13:48:130 [ADB] Restarting adb
+2020-08-27 12:13:48:132 [ADB] Killing adb server on port 5037
+2020-08-27 12:13:48:134 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 kill-server'
+2020-08-27 12:13:50:436 [ADB] Could not find devices, restarting adb server...
+2020-08-27 12:13:50:437 [ADB] Restarting adb
+2020-08-27 12:13:50:437 [ADB] Killing adb server on port 5037
+2020-08-27 12:13:50:437 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 kill-server'
+2020-08-27 12:13:52:704 [ADB] Could not find devices, restarting adb server...
+2020-08-27 12:13:52:776 [ADB] Restarting adb
+2020-08-27 12:13:52:776 [ADB] Killing adb server on port 5037
+2020-08-27 12:13:52:777 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 kill-server'
+2020-08-27 12:13:55:057 [ADB] Could not find devices, restarting adb server...
+2020-08-27 12:13:55:058 [ADB] Restarting adb
+2020-08-27 12:13:55:058 [ADB] Killing adb server on port 5037
+2020-08-27 12:13:55:059 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 kill-server'
+2020-08-27 12:13:57:328 [ADB] Could not find devices, restarting adb server...
+2020-08-27 12:13:57:329 [ADB] Restarting adb
+2020-08-27 12:13:57:330 [ADB] Killing adb server on port 5037
+2020-08-27 12:13:57:330 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 kill-server'
+2020-08-27 12:13:59:615 [ADB] Could not find devices, restarting adb server...
+2020-08-27 12:13:59:615 [ADB] Restarting adb
+2020-08-27 12:13:59:616 [ADB] Killing adb server on port 5037
+2020-08-27 12:13:59:616 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 kill-server'
+2020-08-27 12:14:01:887 [ADB] Could not find devices, restarting adb server...
+2020-08-27 12:14:01:889 [ADB] Restarting adb
+2020-08-27 12:14:01:891 [ADB] Killing adb server on port 5037
+2020-08-27 12:14:01:892 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 kill-server'
+2020-08-27 12:14:04:198 [ADB] Could not find devices, restarting adb server...
+2020-08-27 12:14:04:199 [ADB] Restarting adb
+2020-08-27 12:14:04:199 [ADB] Killing adb server on port 5037
+2020-08-27 12:14:04:200 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 kill-server'
+2020-08-27 12:14:06:482 [ADB] Could not find devices, restarting adb server...
+2020-08-27 12:14:06:482 [ADB] Restarting adb
+2020-08-27 12:14:06:483 [ADB] Killing adb server on port 5037
+2020-08-27 12:14:06:483 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 kill-server'
+2020-08-27 12:14:08:744 [UiAutomator2] Deleting UiAutomator2 session
+2020-08-27 12:14:08:789 [BaseDriver] Event 'newSessionStarted' logged at 1598510648789 (12:14:08 GMT+0530 (India Standard Time))
+2020-08-27 12:14:08:900 [W3C] Encountered internal error running command: Error: Could not find a connected Android device.
+2020-08-27 12:14:08:901 [W3C]     at getDevices (C:\Users\akshay.s\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:203:13)
+2020-08-27 12:14:08:901 [W3C]     at getDevices (C:\Users\akshay.s\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:220:20)
+2020-08-27 12:14:08:902 [W3C]     at ADB.getDevicesWithRetry (C:\Users\akshay.s\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:223:10)
+2020-08-27 12:14:08:902 [W3C]     at Object.getDeviceInfoFromCaps (C:\Users\akshay.s\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\android-helpers.js:195:19)
+2020-08-27 12:14:08:902 [W3C]     at AndroidUiautomator2Driver.startUiAutomator2Session (C:\Users\akshay.s\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:264:26)
+2020-08-27 12:14:08:903 [W3C]     at AndroidUiautomator2Driver.createSession (C:\Users\akshay.s\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:211:7)
+2020-08-27 12:14:08:903 [W3C]     at AppiumDriver.createSession (C:\Users\akshay.s\AppData\Local\Programs\Appium\resources\app\node_modules\appium\lib\appium.js:353:35)
+2020-08-27 12:14:08:904 [W3C]     at AppiumDriver.executeCommand (C:\Users\akshay.s\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\driver.js:376:13)
+2020-08-27 12:14:08:905 [W3C]     at AppiumDriver.executeCommand (C:\Users\akshay.s\AppData\Local\Programs\Appium\resources\app\node_modules\appium\lib\appium.js:482:14)
+2020-08-27 12:14:08:905 [W3C]     at asyncHandler (C:\Users\akshay.s\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:306:21)
+2020-08-27 12:14:08:917 [HTTP] <-- POST /wd/hub/session 500 43739 ms - 705
+2020-08-27 12:14:08:918 [HTTP] 

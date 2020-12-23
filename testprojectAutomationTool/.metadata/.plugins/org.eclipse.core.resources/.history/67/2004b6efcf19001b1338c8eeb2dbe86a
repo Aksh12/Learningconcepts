@@ -1,0 +1,31 @@
+package webappapu;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+public class firfoxdriver {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.gecko.driver","D:\\2.Learning_Paths\\eclipse-workspace\\testprojectAutomationTool\\webappapu\\src\\test\\resources\\firefox\\geckodriver.exe" );  
+		DesiredCapabilities capabilities = DesiredCapabilities.firefox();  
+		WebDriver driver= new FirefoxDriver(capabilities);  
+		capabilities.setCapability("marionette",true);  
+		driver.navigate().to("https://login.yahoo.com/?.src=ym&.lang=en-US&.intl=us&.done=https%3A%2F%2Flocalhost%3A4080%2Fd");
+
+		driver.findElement(By.id("login-username")).sendKeys("akshaysoni36@yahoo.com");
+		driver.findElement(By.id("login-signin")).click();
+		driver.findElement(By.id("login-passwd")).sendKeys("4arclr26@");
+		driver.findElement(By.id("login-signin")).click();
+		driver.findElement(By.id("")).click();
+		if(driver.findElement(By.xpath("")).getAttribute("data-test-folder-name").equals("")){
+         System.out.println("Pass");
+         
+		}else {
+			System.out.println("Fail");
+		}
+
+	}
+
+}

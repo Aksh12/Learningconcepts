@@ -1,0 +1,63 @@
+package collectionsconcept;
+
+import java.io.FileInputStream;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.util.CellUtil;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class Reader {
+	
+	public static void main(String[] args)throws Exception {
+		System.out.println(1);
+//		Reader.getData();
+		System.out.println(2);
+
+	}
+
+
+//	public static String fileName = "D:\\2.Learning_Paths\\eclipse-workspace\\testprojectAutomationTool\\conceptsLearning\\TestData.xlsx";
+//	public static FileInputStream fis;
+//	public static XSSFWorkbook workBook;
+//	public static XSSFSheet sheet;
+//	public static XSSFRow rows;
+//	
+//	
+//	public static void loadExcel() throws Exception{
+//		
+//		fis = new FileInputStream(fileName);
+//		workBook = new XSSFWorkbook(fis);
+//		sheet = workBook.getSheet("data");
+//		fis.close();
+//	}
+//	
+//	public static Map<String, String> getData()throws Exception{
+//		
+//		if(sheet==null) {
+//			loadExcel();
+//		}
+//		
+//		int row = rows.getRowNum();
+//		HashMap<String, String> m1 = new HashMap<String,String>();
+//		for(int i=1; i<row;i++) {
+//		
+//			for(int j=2; j<=i; j++) {
+//				Row r = CellUtil.getRow(i, sheet);
+//				String key  = CellUtil.getCell(r, i).getStringCellValue();
+//				String value  = CellUtil.getCell(r, j).getStringCellValue();
+//				System.out.println(m1.put(key, value));
+//				
+//			}
+//		}
+//		return m1;
+//		
+//	}
+//	
+	
+	
+
+}

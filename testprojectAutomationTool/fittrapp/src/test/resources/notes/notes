@@ -1,0 +1,18 @@
+TDD : Test Data Driven development : Test NG
+BDD : Behavior driven development
+
+1) We are defining the behavior of frame work, Test case, use case
+2) Behavior means : Simple normal plain English by language Gherkin Keyword
+3) Gherkin is feature language to define BDD framework.
+4) BDD is similar to TDD, where we start of it with test, however, in BDD we start of it by writing behavior.
+
+What is BDD?
+
+5) When Customer comes and says show me the feature what it delivers, we can't show that. Cucumber helps in solving this problem
+by creating behavior around test. Because the way behavior are written is going to help them to understand feature.
+
+When you need to communicate the feature to somebody who is not technical.
+
+JBehvae : Only for java but not user defined
+Cucumber
+

@@ -1,0 +1,68 @@
+package utilities;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.Properties;
+
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.remote.MobileCapabilityType;
+
+public class CommonUtils {
+
+	private static AppiumDriver<MobileElement> driver;
+	private static DesiredCapabilities capabilities = new DesiredCapabilities();
+	private static URL serverUrl;
+	private static String APPIUM_PORT;
+	private static int IMPLICIT_WAIT_TIME;
+	private static int EXPLICIT_WAIT_TIME;
+	private static String BASE_PACKAGE;
+	private static String APPLICATION_ACTIVITY;
+	private static String APPLICATION_PATH;
+	private static String BROWSER_NAME;
+	private static String PLATFORM_NAME;
+	private static String PLATFORM_VERSION;
+	private static String DEVICE_NAME;
+	private static Properties prop = new Properties();
+	private static FileInputStream fis;
+
+	public static void loadAndroidConfFile(String loadPropertiesFile) throws IOException {
+		
+		fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\"+loadPropertiesFile);
+	    prop.load(fis);
+		APPIUM_PORT = prop.getProperty("appium.server.port");
+	    IMPLICIT_WAIT_TIME = Integer.parseInt(prop.getProperty("implicit.wait"));
+	    EXPLICIT_WAIT_TIME = Integer.parseInt(prop.getProperty("explicit.wait"));
+	    BASE_PACKAGE = prop.getProperty("base.pkg");
+	    APPLICATION_ACTIVITY = prop.getProperty("application.activity");
+	    PLATFORM_NAME = prop.getProperty("platform.name");
+	    PLATFORM_VERSION = prop.getProperty("platform.version");
+	    DEVICE_NAME = prop.getProperty("device.name");
+		
+	}
+
+	public static void setAndroidCapabilities() {
+		capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, DEVICE_NAME);
+		capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, PLATFORM_VERSION);
+		capabilities.setCapability(MobileCapabilityType.APPLICATION_NAME, PLATFORM_NAME);
+		capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, DEVICE_NAME);
+		capabilities.setCapability("appPackage", BASE_PACKAGE);
+		capabilities.setCapability("appActivity", APPLICATION_ACTIVITY);
+
+	}
+
+	public static AppiumDriver<MobileElement> getAndroidDriver() throws MalformedURLException {
+
+		serverUrl = new URL("http//0.0.0.0:"+APPIUM_PORT+"/wd/hub");
+		driver = new AndroidDriver<MobileElement>(serverUrl, capabilities);
+		return driver;
+
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;logs&apos; to &apos;fittrapplication/src/test/resources&apos;&#x0D;&#x0A;- Original project: &apos;PageObjectModelWithPageFactory&apos;&#x0D;&#x0A;- Destination element: &apos;fittrapplication/src/test/resources&apos;&#x0D;&#x0A;- Original element: &apos;logs&apos;" description="Copy folder" destination="=fittrapplication/src\/test\/resources=/test=/true=/=/gradle_scope=/test=/=/gradle_used_by_scope=/test=/" element1="src/test/resources/logs" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1599055552932" units="0" version="1.0"/>
+</session>

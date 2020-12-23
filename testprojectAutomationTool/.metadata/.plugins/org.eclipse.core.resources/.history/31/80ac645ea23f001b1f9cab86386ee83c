@@ -1,0 +1,25 @@
+package dataprovider;
+
+import org.testng.ITestContext;
+import org.testng.ITestListener;
+import org.testng.ITestResult;
+
+public class ITestListeners implements ITestListener {
+
+	public void onTestSuccess(ITestResult result) {
+	
+		System.out.println("Passed");
+		
+	}
+
+	public void onTestFailure(ITestResult result) {
+		System.out.println("Failed");
+	
+	}
+
+	public void onFinish(ITestContext context) {
+		System.out.println(context.getName() + " : finished");
+		
+	}
+
+}

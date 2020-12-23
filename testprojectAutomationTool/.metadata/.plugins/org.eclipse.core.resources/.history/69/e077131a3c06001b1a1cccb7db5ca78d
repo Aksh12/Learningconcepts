@@ -1,0 +1,17 @@
+package basicJavaCoding;
+
+public class ArrayConcept {
+
+	public static void main(String[] args) {
+	
+		int a[] = new int [5];
+		int count = 0;
+		int i;
+		
+		for( i=0; i<a.length ;i++) {
+			a[i]=i;
+		}
+		System.out.println(a[1]);
+	}
+
+}

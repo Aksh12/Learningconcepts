@@ -1,0 +1,4 @@
+# Created at 2020-10-22T15:53:47.530
+Boot Manifest-JAR contains absolute paths in classpath 'D:\2.Learning_Paths\eclipse-workspace\testprojectAutomationTool\fittrapp\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

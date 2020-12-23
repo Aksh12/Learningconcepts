@@ -1,0 +1,127 @@
+package localRunner;
+
+import java.awt.Point;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
+
+import io.appium.java_client.TouchAction;
+import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.touch.LongPressOptions;
+import io.appium.java_client.touch.WaitOptions;
+import io.appium.java_client.touch.offset.ElementOption;
+import io.appium.java_client.touch.offset.PointOption;
+import io.testproject.java.sdk.v2.Runner;
+import io.testproject.java.sdk.v2.drivers.AndroidDriver;
+
+import io.appium.java_client.MultiTouchAction;
+import io.appium.java_client.TouchAction;
+import io.appium.java_client.android.AndroidElement;
+import org.openqa.selenium.Dimension;
+ 
+import java.time.Duration;
+ 
+import static io.appium.java_client.touch.TapOptions.tapOptions;
+import static io.appium.java_client.touch.WaitOptions.waitOptions;
+import static io.appium.java_client.touch.offset.ElementOption.element;
+import static io.appium.java_client.touch.offset.PointOption.point;
+import static java.time.Duration.ofMillis;
+import static java.time.Duration.ofSeconds;
+
+public class LocalRunner {
+	
+	public static final String developerToken = "4ieRzR7cfQuQwpHvaZbGoJ7954y5IQT5XXWOvPZYRtA";
+	public static final String deviceUDID = "74ad6a6a";
+	public static String androidPackage ="com.android.launcher3";
+	public static String androidActivity = "com.android.searchlauncher.SearchLauncher";
+	public static Dimension screenSize;
+	public static int startX, startY, endX, endY;
+	
+
+	public static void main(String[] args) throws InstantiationException, InterruptedException {
+		
+		Runner run = Runner.createAndroid(developerToken, deviceUDID, androidPackage, androidActivity);
+		AndroidDriver<AndroidElement>  driver =  run.getDriver();
+		driver.setTimeout(15000);
+		
+	//driver.openNotifications();
+	   // AndroidElement el1 = driver.findElement(By.id("e2a3ae1d-6b0c-4412-a1c4-59557fa1cd0f"));
+		TouchAction ac1 = new TouchAction(driver);
+		System.out.println("wait start");
+		Thread.sleep(4000);
+		System.out.println("wait over");
+		
+		PointOption point = new PointOption();
+	//	WaitOptions waitOptions = new WaitOptions();
+	//	ac1.longPress(new LongPressOptions().withPosition(new PointOption().withCoordinates(572, 487))).moveTo(new PointOption().withCoordinates(498, 1763)).perform().release();
+		//ac1.moveTo(new PointOption().withCoordinates(498, 1763)).perform().release();
+		screenSize = driver.manage().window().getSize();
+		System.out.println("Window size is : " + screenSize);
+		startX = (int)(screenSize.width * 0.80);
+		endX = (int)(screenSize.width * 0.80);
+		
+		
+		startY = (int) (screenSize.height * 0.80);
+		endY = (int)(screenSize.height * 0.80);
+		
+		System.out.println("startX is : " + startX);
+		System.out.println("endX is : " +  endX);
+		System.out.println("startY is : " + startY);
+		System.out.println("endY is : " +  endY);
+		
+		TouchAction vs1 = new TouchAction(driver);
+		TouchAction vs2 = new TouchAction(driver);
+		
+		System.out.println("tap 1");
+		
+		vs1.press(point(23, endY))
+        .waitAction(waitOptions(ofMillis(1000)))
+        .moveTo(point(23, startX))
+        .release().perform();
+		
+		System.out.println("tapping done");
+		
+		System.out.println("tap 2");
+		vs2.press(point(23, startX)).waitAction(waitOptions(ofMillis(1000))).moveTo(point(23,endY)).release().perform();
+		System.out.println("tapping done again");
+		
+	/*	TouchAction tp1 = new TouchAction(driver);
+		System.out.println("tap 1");
+		tp1.tap(new PointOption().withCoordinates(552, 1777)).perform().release();
+		System.out.println("tapping done");
+		/*
+		
+		//ac1.longPress(new LongPressOptions().withPosition(new PointOption().withCoordinates(startX, endY))).perform().moveTo(new PointOption().withCoordinates(startX, startY)).perform().release();
+	//	ac1.press(new PointOption().withCoordinates(endX, endY)).moveTo(new PointOption().withCoordinates(startX, startY)).perform().release();
+		int count = 0;
+		while(true) {
+		TouchAction x1 = ac1.press(new PointOption().withCoordinates(67, 89)).perform();
+		System.out.println("done x1");
+		Thread.sleep(3000);
+		TouchAction x2 =x1.moveTo(new PointOption().withCoordinates(139, 1795)).release();
+		System.out.println("done x2");
+		//AndroidElement e1 = driver.findElement(By.id("com.android.systemui:id/qs_drag_handle_view"));
+		//ac1.longPress(new LongPressOptions().withElement(driver.findElement(By.id(""))).
+		Thread.sleep(3000);
+		
+			System.out.println("count value is now : " +  count);
+		TouchAction x3 = ac1.press(new PointOption().withCoordinates(67, 89)).perform();
+		System.out.println("done x3");
+		Thread.sleep(3000);
+		TouchAction x4 =x3.moveTo(new PointOption().withCoordinates(139, 1795)).release();
+		System.out.println("done x4");
+		Thread.sleep(3000);
+		TouchAction x5 =ac1.press(new PointOption().withCoordinates(552,256)).perform();
+		System.out.println("done x5");
+		System.out.println("done");
+		count++;
+		}
+		//ac1.press(new PointOption().point(startX, endY).moveTo(startX, startY).perform();
+	
+		*/
+		
+		
+
+	}
+
+}

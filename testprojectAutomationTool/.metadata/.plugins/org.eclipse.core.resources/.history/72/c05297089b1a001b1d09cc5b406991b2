@@ -1,0 +1,68 @@
+package collectionsconcept;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.util.CellUtil;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class Reader {
+	
+	public static void main(String[] args)throws Exception {
+		System.out.println(1);
+//		Reader.getData();
+		System.out.println(2);
+
+	}
+
+
+	public static String fileName = "D:\\2.Learning_Paths\\eclipse-workspace\\testprojectAutomationTool\\conceptsLearning\\TestData.xlsx";
+	public static FileInputStream fis;
+	public static XSSFWorkbook workBook;
+	public static XSSFSheet sheet;
+	public static XSSFRow rows;
+	public static Row ro;
+	
+	public static void loadExcel() throws Exception{
+		File file = new File(fileName);
+		fis = new FileInputStream(file);
+		workBook = new XSSFWorkbook(fis);
+		sheet = workBook.getSheet("data");
+		fis.close();
+	}
+	
+	public static Map<String, String> getData()throws Exception{
+		
+		if(sheet==null) {
+			loadExcel();
+		}
+		
+	//	int row = rows.getRowNum();
+		HashMap<String, String> m1 = new HashMap<String,String>();
+		for(int i=1; i<sheet.getLastRowNum()+1;i++) {
+			 ro = sheet.getRow(i);
+			String keyCell=ro.getCell(i).getStringCellValue();
+			
+			
+			int collnum = ro.getLastCellNum();
+			for(int j=1; j<collnum; j++) {
+				String value  = ro.getCell(j).getStringCellValue();
+				System.out.println(m1.put(keyCell, value));
+				
+			}
+		}
+
+		return m1;
+		
+	}
+	
+	
+	
+
+}

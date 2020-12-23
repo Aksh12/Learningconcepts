@@ -1,0 +1,28 @@
+package basicJavaCoding;
+
+import java.util.Scanner;
+
+public class PrimeNumber {
+
+	public static void main(String[] args) {
+		// Prime Number : Number which is divisble by only 1 and itself 1,2,3,5,7,11,13
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter number to check if it is PrimeNumber");
+		int num = sc.nextInt();
+		int count=0;
+		
+		for(int i=1; i<=num; i++) {
+		if(i%1==0 && i%i==0 && i%2 != 0) {
+			System.out.println("Given number is a prime number : " + i);
+			count++;
+		}else {
+			//System.out.println("Given number is not a prime number");
+		}
+		}
+		
+		System.out.println("Total number of prime number between 1 - " + num + " are " + count);
+
+	}
+
+}

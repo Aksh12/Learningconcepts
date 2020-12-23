@@ -1,0 +1,29 @@
+package basicJavaCoding;
+
+import java.util.Scanner;
+
+public class DecimalToBinary {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Decimal number to get binary (Example : 9)");
+		long binary = sc.nextLong();
+		long a = binary;
+		long rema;
+		long quot;
+		long result=0;
+		
+		while(binary != 0) {
+			binary=binary/2;//4
+			System.out.println("Quotient : " + binary);
+			a= a%2;//1
+			System.out.println("Remainer : " + a);
+			result=result*10+a;
+			
+		}
+		
+		System.out.println("result : "+ result);
+
+	}
+
+}

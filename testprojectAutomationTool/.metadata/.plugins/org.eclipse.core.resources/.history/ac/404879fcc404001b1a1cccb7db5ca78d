@@ -1,0 +1,23 @@
+package basicJavaCoding;
+
+import java.util.Scanner;
+
+public class DecimalToBinary {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Decimal number to get binary (Example : 9)");
+		long binary = sc.nextLong();
+		long rema;
+		long quot;
+		
+		while(binary != 0) {
+			quot=binary%2;
+			binary=quot;
+			
+			
+		}
+
+	}
+
+}

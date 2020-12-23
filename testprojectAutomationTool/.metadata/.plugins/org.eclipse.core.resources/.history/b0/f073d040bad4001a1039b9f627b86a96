@@ -1,0 +1,15 @@
+package base;
+
+import com.aventstack.extentreports.ExtentReports;
+
+public class ExtentManager {
+	
+	private ExtentReports extent;
+	
+	public ExtentReports createInstances(String fileName) {
+		
+		
+		return extent;
+	}
+
+}

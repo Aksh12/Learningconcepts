@@ -1,0 +1,20 @@
+package dataprovider;
+
+import org.testng.annotations.Test;
+
+public class DataProviderWithMethodParameter {
+	
+	
+//	@Test(dataProvider="inputData", dataProviderClass = DataProviderInput.class)
+	public void calculateab(int a, int b) {
+		int sum=(a+b);
+		System.out.println("a+b =  " + sum);
+	}
+	
+	@Test(dataProvider="inputData", dataProviderClass = DataProviderInput.class)
+	public void calculateabc(int a, int b, int c) {
+		int sum=(a+b+c);
+		System.out.println("a+b+c =  " + sum);
+	}
+
+}

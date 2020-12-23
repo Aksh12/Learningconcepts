@@ -1,0 +1,39 @@
+package basicJavaCoding;
+
+import java.util.Scanner;
+
+public class PrimeNumbersBetweenIntervals {
+
+	public static void main(String[] args) {
+
+		Scanner sc  = new Scanner(System.in);
+		System.out.println("enter starting");
+		int a = sc.nextInt();
+		System.out.println("enter ending");
+		int b = sc.nextInt();
+		boolean flag = false;
+		int count = 0;
+
+		for(int j=a; j<=b; j++) {
+			for(int i=2; i<=a ; i++) {
+
+				if(a%i == 0) {
+					flag=true;
+					break;
+				}
+			}
+
+			if(!flag) {
+				count++;
+
+			}
+
+		}
+		
+		System.out.println("number of prime numbers between " +a+ " and " +b+ " : " + count);
+
+
+
+	}
+
+}

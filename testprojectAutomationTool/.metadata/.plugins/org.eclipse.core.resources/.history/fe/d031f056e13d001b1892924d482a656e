@@ -1,0 +1,5 @@
+package annotations;
+
+public class Test_annotation_class {
+
+}

@@ -1,0 +1,342 @@
+2020-10-22 15:54:47:649 [Appium] Welcome to Appium v1.15.1
+2020-10-22 15:54:47:651 [Appium] Non-default server args:
+2020-10-22 15:54:47:651 [Appium]   logFile: D:\2.Learning_Paths\eclipse-workspace\testprojectAutomationTool\fittrapp\src\test\resources\logs\logs.txt
+2020-10-22 15:54:47:652 [Appium]   localTimezone: true
+2020-10-22 15:54:47:714 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2020-10-22 15:54:47:795 [HTTP] --> GET /wd/hub/status
+2020-10-22 15:54:47:796 [HTTP] {}
+2020-10-22 15:54:47:800 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2020-10-22 15:54:47:804 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.15.1"}}
+2020-10-22 15:54:47:818 [HTTP] <-- GET /wd/hub/status 200 16 ms - 68
+2020-10-22 15:54:47:819 [HTTP] 
+2020-10-22 15:54:47:860 [HTTP] --> POST /wd/hub/session
+2020-10-22 15:54:47:861 [HTTP] {"desiredCapabilities":{"appActivity":".activity.SplashActivity","appPackage":"com.squats.fittr","platformName":"Android","deviceName":"Android","platformVersion":"10"},"capabilities":{"firstMatch":[{"appium:appActivity":".activity.SplashActivity","appium:appPackage":"com.squats.fittr","appium:deviceName":"Android","platformName":"android","appium:platformVersion":"10"}]}}
+2020-10-22 15:54:47:878 [W3C] Calling AppiumDriver.createSession() with args: [{"appActivity":".activity.SplashActivity","appPackage":"com.squats.fittr","platformName":"Android","deviceName":"Android","platformVersion":"10"},null,{"firstMatch":[{"appium:appActivity":".activity.SplashActivity","appium:appPackage":"com.squats.fittr","appium:deviceName":"Android","platformName":"android","appium:platformVersion":"10"}]}]
+2020-10-22 15:54:47:892 [BaseDriver] Event 'newSessionRequested' logged at 1603362287891 (15:54:47 GMT+0530 (India Standard Time))
+2020-10-22 15:54:47:903 [Appium] 
+2020-10-22 15:54:47:903 [Appium] ======================================================================
+2020-10-22 15:54:47:904 [Appium]   DEPRECATION WARNING:
+2020-10-22 15:54:47:904 [Appium] 
+2020-10-22 15:54:47:905 [Appium]   The 'automationName' capability was not provided in the desired 
+2020-10-22 15:54:47:905 [Appium]   capabilities for this Android session
+2020-10-22 15:54:47:905 [Appium] 
+2020-10-22 15:54:47:906 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2020-10-22 15:54:47:907 [Appium]   UiAutomator2 Driver
+2020-10-22 15:54:47:907 [Appium] 
+2020-10-22 15:54:47:908 [Appium]   The next major version of Appium (2.x) will **require** the 
+2020-10-22 15:54:47:921 [Appium]   'automationName' capability to be set for all sessions on all 
+2020-10-22 15:54:47:922 [Appium]   platforms
+2020-10-22 15:54:47:925 [Appium] 
+2020-10-22 15:54:47:926 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2020-10-22 15:54:47:927 [Appium]   'automationName=UiAutomator1'
+2020-10-22 15:54:47:928 [Appium] 
+2020-10-22 15:54:47:929 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2020-10-22 15:54:47:930 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2020-10-22 15:54:47:931 [Appium] 
+2020-10-22 15:54:47:931 [Appium]   For more information about drivers, please visit 
+2020-10-22 15:54:47:932 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2020-10-22 15:54:47:932 [Appium]   'Drivers' menu
+2020-10-22 15:54:47:933 [Appium] 
+2020-10-22 15:54:47:933 [Appium] ======================================================================
+2020-10-22 15:54:47:934 [Appium] 
+2020-10-22 15:54:48:282 [Appium] Appium v1.15.1 creating new AndroidUiautomator2Driver (v1.37.2) session
+2020-10-22 15:54:48:289 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2020-10-22 15:54:48:289 [BaseDriver] Creating session with W3C capabilities: {
+2020-10-22 15:54:48:290 [BaseDriver]   "alwaysMatch": {
+2020-10-22 15:54:48:290 [BaseDriver]     "platformName": "android",
+2020-10-22 15:54:48:290 [BaseDriver]     "appium:appActivity": ".activity.SplashActivity",
+2020-10-22 15:54:48:290 [BaseDriver]     "appium:appPackage": "com.squats.fittr",
+2020-10-22 15:54:48:291 [BaseDriver]     "appium:deviceName": "Android",
+2020-10-22 15:54:48:291 [BaseDriver]     "appium:platformVersion": "10"
+2020-10-22 15:54:48:291 [BaseDriver]   },
+2020-10-22 15:54:48:291 [BaseDriver]   "firstMatch": [
+2020-10-22 15:54:48:292 [BaseDriver]     {}
+2020-10-22 15:54:48:292 [BaseDriver]   ]
+2020-10-22 15:54:48:292 [BaseDriver] }
+2020-10-22 15:54:48:302 [BaseDriver] Session created with session id: 017470ca-82b9-4280-9a5e-90f0dab7bd2e
+2020-10-22 15:54:48:302 [UiAutomator2] Starting 'com.squats.fittr' directly on the device
+2020-10-22 15:54:48:719 [ADB] Found 2 'build-tools' folders under 'C:\Users\akshay.s\AppData\Local\Android\Sdk\' (newest first):
+2020-10-22 15:54:48:720 [ADB]     C:/Users/akshay.s/AppData/Local/Android/Sdk/build-tools/30.0.0-rc1
+2020-10-22 15:54:48:720 [ADB]     C:/Users/akshay.s/AppData/Local/Android/Sdk/build-tools/29.0.3
+2020-10-22 15:54:48:722 [ADB] Using 'adb.exe' from 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2020-10-22 15:54:48:723 [AndroidDriver] Retrieving device list
+2020-10-22 15:54:48:724 [ADB] Trying to find a connected android device
+2020-10-22 15:54:48:726 [ADB] Getting connected devices...
+2020-10-22 15:54:48:783 [ADB] Connected devices: [{"udid":"67e0c2a5","state":"device"}]
+2020-10-22 15:54:48:784 [AndroidDriver] Looking for a device with Android '10'
+2020-10-22 15:54:48:785 [ADB] Setting device id to 67e0c2a5
+2020-10-22 15:54:48:785 [ADB] Getting device platform version
+2020-10-22 15:54:48:787 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 67e0c2a5 shell getprop ro.build.version.release'
+2020-10-22 15:54:48:879 [ADB] Current device property 'ro.build.version.release': 10
+2020-10-22 15:54:48:880 [AndroidDriver] Using device: 67e0c2a5
+2020-10-22 15:54:48:881 [ADB] Using 'adb.exe' from 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2020-10-22 15:54:48:881 [ADB] Setting device id to 67e0c2a5
+2020-10-22 15:54:48:882 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 67e0c2a5 shell getprop ro.build.version.sdk'
+2020-10-22 15:54:48:975 [ADB] Current device property 'ro.build.version.sdk': 29
+2020-10-22 15:54:48:975 [ADB] Device API level: 29
+2020-10-22 15:54:48:975 [UiAutomator2] Relaxing hidden api policy
+2020-10-22 15:54:48:976 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 67e0c2a5 shell settings put global hidden_api_policy_pre_p_apps 1'
+2020-10-22 15:54:49:091 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 67e0c2a5 shell settings put global hidden_api_policy_p_apps 1'
+2020-10-22 15:54:49:204 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 67e0c2a5 shell settings put global hidden_api_policy 1'
+2020-10-22 15:54:49:319 [AndroidDriver] No app sent in, not parsing package/activity
+2020-10-22 15:54:49:320 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 67e0c2a5 wait-for-device'
+2020-10-22 15:54:49:560 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 67e0c2a5 shell echo ping'
+2020-10-22 15:54:49:690 [AndroidDriver] Pushing settings apk to device...
+2020-10-22 15:54:49:692 [ADB] Getting install status for io.appium.settings
+2020-10-22 15:54:49:693 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 67e0c2a5 shell dumpsys package io.appium.settings'
+2020-10-22 15:54:49:846 [ADB] 'io.appium.settings' is installed
+2020-10-22 15:54:49:846 [ADB] Getting package info for 'io.appium.settings'
+2020-10-22 15:54:49:847 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 67e0c2a5 shell dumpsys package io.appium.settings'
+2020-10-22 15:54:49:975 [ADB] Cannot extract apk info using apkanalyzer. Falling back to aapt. Original error: Could not find 'apkanalyzer.bat' in ["C:\\Users\\akshay.s\\AppData\\Local\\Android\\Sdk\\platform-tools\\apkanalyzer.bat","C:\\Users\\akshay.s\\AppData\\Local\\Android\\Sdk\\emulator\\apkanalyzer.bat","C:\\Users\\akshay.s\\AppData\\Local\\Android\\Sdk\\tools\\apkanalyzer.bat","C:\\Users\\akshay.s\\AppData\\Local\\Android\\Sdk\\tools\\bin\\apkanalyzer.bat","C:\\Users\\akshay.s\\AppData\\Local\\Android\\Sdk\\build-tools\\30.0.0-rc1\\apkanalyzer.bat","C:\\Users\\akshay.s\\AppData\\Local\\Android\\Sdk\\build-tools\\29.0.3\\apkanalyzer.bat"]. Do you have Android Build Tools installed at 'C:\Users\akshay.s\AppData\Local\Android\Sdk\'?
+2020-10-22 15:54:49:980 [ADB] Using 'aapt.exe' from 'C:\Users\akshay.s\AppData\Local\Android\Sdk\build-tools\30.0.0-rc1\aapt.exe'
+2020-10-22 15:54:50:160 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.2' >= '2.14.2')
+2020-10-22 15:54:50:161 [ADB] There is no need to install/upgrade 'C:\Users\akshay.s\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2020-10-22 15:54:50:162 [ADB] Getting IDs of all 'io.appium.settings' processes
+2020-10-22 15:54:50:163 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 67e0c2a5 shell 'pgrep --help; echo $?''
+2020-10-22 15:54:50:301 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 67e0c2a5 shell pgrep -f io\\.appium\\.settings'
+2020-10-22 15:54:50:479 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2020-10-22 15:54:50:481 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 67e0c2a5 shell appops set io.appium.settings android\:mock_location allow'
+2020-10-22 15:54:50:623 [Logcat] Starting logcat capture
+2020-10-22 15:54:50:721 [ADB] Getting install status for io.appium.uiautomator2.server
+2020-10-22 15:54:50:722 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 67e0c2a5 shell dumpsys package io.appium.uiautomator2.server'
+2020-10-22 15:54:50:840 [ADB] 'io.appium.uiautomator2.server' is installed
+2020-10-22 15:54:50:841 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2020-10-22 15:54:50:841 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 67e0c2a5 shell dumpsys package io.appium.uiautomator2.server'
+2020-10-22 15:54:50:980 [ADB] Cannot extract apk info using apkanalyzer. Falling back to aapt. Original error: Could not find 'apkanalyzer.bat' in ["C:\\Users\\akshay.s\\AppData\\Local\\Android\\Sdk\\platform-tools\\apkanalyzer.bat","C:\\Users\\akshay.s\\AppData\\Local\\Android\\Sdk\\emulator\\apkanalyzer.bat","C:\\Users\\akshay.s\\AppData\\Local\\Android\\Sdk\\tools\\apkanalyzer.bat","C:\\Users\\akshay.s\\AppData\\Local\\Android\\Sdk\\tools\\bin\\apkanalyzer.bat","C:\\Users\\akshay.s\\AppData\\Local\\Android\\Sdk\\build-tools\\30.0.0-rc1\\apkanalyzer.bat","C:\\Users\\akshay.s\\AppData\\Local\\Android\\Sdk\\build-tools\\29.0.3\\apkanalyzer.bat"]. Do you have Android Build Tools installed at 'C:\Users\akshay.s\AppData\Local\Android\Sdk\'?
+2020-10-22 15:54:51:082 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.3.0' >= '4.3.0')
+2020-10-22 15:54:51:083 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2020-10-22 15:54:51:084 [ADB] Checking app cert for C:\Users\akshay.s\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.3.0.apk
+2020-10-22 15:54:51:092 [ADB] Using 'apksigner.bat' from 'C:\Users\akshay.s\AppData\Local\Android\Sdk\build-tools\30.0.0-rc1\apksigner.bat'
+2020-10-22 15:54:51:096 [ADB] Starting 'C:\Users\akshay.s\AppData\Local\Android\Sdk\build-tools\30.0.0-rc1\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\akshay.s\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.3.0.apk"]'
+2020-10-22 15:54:54:156 [ADB] Got an error during apksigner execution: Command 'apksigner.bat verify --print-certs C:\\Users\\akshay.s\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.3.0.apk' exited with code 1
+2020-10-22 15:54:54:157 [ADB] apksigner stderr: java.lang.UnsupportedClassVersionError: com/android/apksigner/ApkSignerTool has been compiled by a more recent version of the Java Runtime (class file version 53.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+2020-10-22 15:54:54:157 [ADB] 	at java.lang.ClassLoader.defineClass1(Native Method)
+2020-10-22 15:54:54:158 [ADB] 	at java.lang.ClassLoader.defineClass(Unknown Source)
+2020-10-22 15:54:54:159 [ADB] 	at java.security.SecureClassLoader.defineClass(Unknown Source)
+2020-10-22 15:54:54:159 [ADB] 	at java.net.URLClassLoader.defineClass(Unknown Source)
+2020-10-22 15:54:54:159 [ADB] 	at java.net.URLClassLoader.access$100(Unknown Source)
+2020-10-22 15:54:54:160 [ADB] 	at java.net.URLClassLoader$1.run(Unknown Source)
+2020-10-22 15:54:54:160 [ADB] 	at java.net.URLClassLoader$1.run(Unknown Source)
+2020-10-22 15:54:54:161 [ADB] 	at java.security.AccessController.doPrivileged(Native Method)
+2020-10-22 15:54:54:161 [ADB] 	at java.net.URLClassLoader.findClass(Unknown Source)
+2020-10-22 15:54:54:162 [ADB] 	at java.lang.ClassLoader.loadClass(Unknown Source)
+2020-10-22 15:54:54:162 [ADB] 	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+2020-10-22 15:54:54:162 [ADB] 	at java.lang.ClassLoader.loadClass(Unknown Source)
+2020-10-22 15:54:54:163 [ADB] 	at sun.launcher.LauncherHelper.checkAndLoadMain(Unknown Source)
+2020-10-22 15:54:54:163 [ADB] Error: A JNI error has occurred, please check your installation and try again
+2020-10-22 15:54:54:163 [ADB] Exception in thread "main" 
+2020-10-22 15:54:54:167 [ADB] Cannot use apksigner tool for signature verification. Original error: Command 'apksigner.bat verify --print-certs C:\\Users\\akshay.s\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.3.0.apk' exited with code 1
+2020-10-22 15:54:54:168 [ADB] Defaulting to verify.jar
+2020-10-22 15:54:54:621 [ADB] 'C:\Users\akshay.s\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.3.0.apk' is already signed.
+2020-10-22 15:54:54:622 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2020-10-22 15:54:54:622 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 67e0c2a5 shell dumpsys package io.appium.uiautomator2.server.test'
+2020-10-22 15:54:54:734 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2020-10-22 15:54:54:735 [ADB] Checking app cert for C:\Users\akshay.s\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+2020-10-22 15:54:54:736 [ADB] Starting 'C:\Users\akshay.s\AppData\Local\Android\Sdk\build-tools\30.0.0-rc1\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\akshay.s\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk"]'
+2020-10-22 15:54:57:095 [ADB] Got an error during apksigner execution: Command 'apksigner.bat verify --print-certs C:\\Users\\akshay.s\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk' exited with code 1
+2020-10-22 15:54:57:095 [ADB] apksigner stderr: java.lang.UnsupportedClassVersionError: com/android/apksigner/ApkSignerTool has been compiled by a more recent version of the Java Runtime (class file version 53.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+2020-10-22 15:54:57:096 [ADB] 	at java.lang.ClassLoader.defineClass1(Native Method)
+2020-10-22 15:54:57:096 [ADB] 	at java.lang.ClassLoader.defineClass(Unknown Source)
+2020-10-22 15:54:57:097 [ADB] 	at java.security.SecureClassLoader.defineClass(Unknown Source)
+2020-10-22 15:54:57:097 [ADB] 	at java.net.URLClassLoader.defineClass(Unknown Source)
+2020-10-22 15:54:57:098 [ADB] 	at java.net.URLClassLoader.access$100(Unknown Source)
+2020-10-22 15:54:57:098 [ADB] 	at java.net.URLClassLoader$1.run(Unknown Source)
+2020-10-22 15:54:57:099 [ADB] 	at java.net.URLClassLoader$1.run(Unknown Source)
+2020-10-22 15:54:57:099 [ADB] 	at java.security.AccessController.doPrivileged(Native Method)
+2020-10-22 15:54:57:100 [ADB] 	at java.net.URLClassLoader.findClass(Unknown Source)
+2020-10-22 15:54:57:100 [ADB] 	at java.lang.ClassLoader.loadClass(Unknown Source)
+2020-10-22 15:54:57:100 [ADB] 	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+2020-10-22 15:54:57:101 [ADB] 	at java.lang.ClassLoader.loadClass(Unknown Source)
+2020-10-22 15:54:57:101 [ADB] 	at sun.launcher.LauncherHelper.checkAndLoadMain(Unknown Source)
+2020-10-22 15:54:57:102 [ADB] Error: A JNI error has occurred, please check your installation and try again
+2020-10-22 15:54:57:102 [ADB] Exception in thread "main" 
+2020-10-22 15:54:57:108 [ADB] Cannot use apksigner tool for signature verification. Original error: Command 'apksigner.bat verify --print-certs C:\\Users\\akshay.s\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk' exited with code 1
+2020-10-22 15:54:57:109 [ADB] Defaulting to verify.jar
+2020-10-22 15:54:57:589 [ADB] 'C:\Users\akshay.s\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+2020-10-22 15:54:57:589 [UiAutomator2] Server packages are not going to be (re)installed
+2020-10-22 15:54:57:592 [UiAutomator2] Waiting up to 30000ms for services to be available
+2020-10-22 15:54:57:593 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 67e0c2a5 shell pm list instrumentation'
+2020-10-22 15:54:57:726 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2020-10-22 15:54:57:727 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8200
+2020-10-22 15:54:57:727 [ADB] Forwarding system: 8200 to device: 6790
+2020-10-22 15:54:57:728 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 67e0c2a5 forward tcp\:8200 tcp\:6790'
+2020-10-22 15:54:57:795 [UiAutomator2] No app capability. Assuming it is already on the device
+2020-10-22 15:54:57:796 [ADB] Getting install status for com.squats.fittr
+2020-10-22 15:54:57:797 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 67e0c2a5 shell dumpsys package com.squats.fittr'
+2020-10-22 15:54:57:910 [ADB] 'com.squats.fittr' is installed
+2020-10-22 15:54:57:911 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 67e0c2a5 shell am force-stop com.squats.fittr'
+2020-10-22 15:54:58:038 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 67e0c2a5 shell pm clear com.squats.fittr'
+2020-10-22 15:54:58:186 [AndroidDriver] Performed fast reset on the installed 'com.squats.fittr' application (stop and clear)
+2020-10-22 15:54:58:187 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2020-10-22 15:54:58:216 [UiAutomator2] No obsolete sessions have been detected (Error: socket hang up)
+2020-10-22 15:54:58:216 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 67e0c2a5 shell am force-stop io.appium.uiautomator2.server.test'
+2020-10-22 15:54:58:342 [UiAutomator2] Starting UIAutomator2 server 4.3.0
+2020-10-22 15:54:58:343 [UiAutomator2] Using UIAutomator2 server from 'C:\Users\akshay.s\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.3.0.apk' and test from 'C:\Users\akshay.s\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2020-10-22 15:54:58:343 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2020-10-22 15:54:58:344 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","67e0c2a5","shell","am","instrument","-w","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2020-10-22 15:54:59:368 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-10-22 15:54:59:371 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2020-10-22 15:54:59:381 [WD Proxy] Got an unexpected response with status undefined: {"code":"ECONNRESET"}
+2020-10-22 15:55:00:046 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2020-10-22 15:55:00:384 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-10-22 15:55:00:385 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2020-10-22 15:55:00:399 [WD Proxy] Got an unexpected response with status undefined: {"code":"ECONNRESET"}
+2020-10-22 15:55:01:402 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-10-22 15:55:01:404 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2020-10-22 15:55:01:502 [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"ready":true,"message":"UiAutomator2 Server is ready to accept commands"}}
+2020-10-22 15:55:01:504 [UiAutomator2] The initialization of the instrumentation process took 3161ms
+2020-10-22 15:55:01:506 [WD Proxy] Matched '/session' to command name 'createSession'
+2020-10-22 15:55:01:508 [WD Proxy] Proxying [POST /session] to [POST http://localhost:8200/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".activity.SplashActivity","appPackage":"com.squats.fittr","deviceName":"Android","platformVersion":"10"},"platformName":"android","appActivity":".activity.SplashActivity","appPackage":"com.squats.fittr","deviceName":"67e0c2a5","platformVersion":"10","deviceUDID":"67e0c2a5"}],"alwaysMatch":{}}}
+2020-10-22 15:55:01:542 [WD Proxy] Got response with status 200: {"sessionId":"534ae067-eac9-45e8-a987-5a827674e4d1","value":{"sessionId":"534ae067-eac9-45e8-a987-5a827674e4d1","capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".activity.SplashActivity","appPackage":"com.squats.fittr","deviceName":"Android","platformVersion":"10"},"platformName":"android","appActivity":".activity.SplashActivity","appPackage":"com.squats.fittr","deviceName":"67e0c2a5","platformVersion":"10","deviceUDID":"67e0c2a5"}],"alwaysMatch":{}}}}
+2020-10-22 15:55:01:543 [WD Proxy] Determined the downstream protocol as 'W3C'
+2020-10-22 15:55:01:566 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://localhost:8200/wd/hub/session/534ae067-eac9-45e8-a987-5a827674e4d1/appium/device/info] with no body
+2020-10-22 15:55:01:610 [WD Proxy] Got response with status 200: {"sessionId":"534ae067-eac9-45e8-a987-5a827674e4d1","value":{"androidId":"99f4940f5a346402","manufacturer":"Sonimtech","model":"XP8800","brand":"Sonim","apiVersion":"29","platformVersion":"10","carrierName":"","realDisplaySize":"1080x1920","displayDensity":480,"networks":[{"type":1,"typeName":"WIFI","subtype":0,"subtypeName":"","isConnected":true,"detailedState":"CONNECTED","state":"CONNECTED","extraInfo":null,"isAvailable":true,"isFailover":false,"isRoaming":false,"capabilities":{"transportTypes":"NET_CAPABILITY_SUPL","networkCapabilities":"","linkUpstreamBandwidthKbps":1048576,"linkDownBandwidthKbps":1048576,"signalStrength":-53,"networkSpecifier":null,"SSID":null}}],"locale":"en_IN","timeZone":"Asia\/Kolkata"}}
+2020-10-22 15:55:01:612 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 67e0c2a5 shell dumpsys window'
+2020-10-22 15:55:01:760 [AndroidDriver] Screen already unlocked, doing nothing
+2020-10-22 15:55:01:761 [UiAutomator2] Starting 'com.squats.fittr/.activity.SplashActivity and waiting for 'com.squats.fittr/.activity.SplashActivity'
+2020-10-22 15:55:01:762 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 67e0c2a5 shell am start -W -n com.squats.fittr/.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2020-10-22 15:55:04:442 [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://localhost:8200/wd/hub/session/534ae067-eac9-45e8-a987-5a827674e4d1/appium/device/pixel_ratio] with body: {}
+2020-10-22 15:55:04:471 [WD Proxy] Got response with status 200: {"sessionId":"534ae067-eac9-45e8-a987-5a827674e4d1","value":3}
+2020-10-22 15:55:04:474 [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2020-10-22 15:55:04:475 [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://localhost:8200/wd/hub/session/534ae067-eac9-45e8-a987-5a827674e4d1/appium/device/system_bars] with body: {}
+2020-10-22 15:55:04:499 [WD Proxy] Got response with status 200: {"sessionId":"534ae067-eac9-45e8-a987-5a827674e4d1","value":{"statusBar":72}}
+2020-10-22 15:55:04:500 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2020-10-22 15:55:04:500 [WD Proxy] Proxying [GET /window/current/size] to [GET http://localhost:8200/wd/hub/session/534ae067-eac9-45e8-a987-5a827674e4d1/window/current/size] with body: {}
+2020-10-22 15:55:04:523 [WD Proxy] Got response with status 200: {"sessionId":"534ae067-eac9-45e8-a987-5a827674e4d1","value":{"height":1920,"width":1080}}
+2020-10-22 15:55:04:524 [Appium] New AndroidUiautomator2Driver session created successfully, session 017470ca-82b9-4280-9a5e-90f0dab7bd2e added to master session list
+2020-10-22 15:55:04:526 [BaseDriver] Event 'newSessionStarted' logged at 1603362304526 (15:55:04 GMT+0530 (India Standard Time))
+2020-10-22 15:55:04:528 [W3C (017470ca)] Cached the protocol value 'W3C' for the new session 017470ca-82b9-4280-9a5e-90f0dab7bd2e
+2020-10-22 15:55:04:529 [W3C (017470ca)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".activity.SplashActivity","appPackage":"com.squats.fittr","deviceName":"Android","platformVersion":"10"},"platformName":"android","appActivity":".activity.SplashActivity","appPackage":"com.squats.fittr","deviceName":"67e0c2a5","platformVersion":"10","deviceUDID":"67e0c2a5","deviceApiLevel":29,"deviceScreenSize":"1080x1920","deviceScreenDensity":480,"deviceModel":"XP8800","deviceManufacturer":"Sonimtech","pixelRatio":3,"statBarHeight":72,"viewportRect":{"left":0,"top":72,"width":1080,"height":1848}}}
+2020-10-22 15:55:04:533 [HTTP] <-- POST /wd/hub/session 200 16670 ms - 827
+2020-10-22 15:55:04:534 [HTTP] 
+2020-10-22 15:55:04:552 [HTTP] --> POST /wd/hub/session/017470ca-82b9-4280-9a5e-90f0dab7bd2e/timeouts
+2020-10-22 15:55:04:552 [HTTP] {"implicit":20000}
+2020-10-22 15:55:04:562 [W3C (017470ca)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,20000,"017470ca-82b9-4280-9a5e-90f0dab7bd2e"]
+2020-10-22 15:55:04:601 [BaseDriver] W3C timeout argument: {"implicit":20000}}
+2020-10-22 15:55:04:602 [BaseDriver] Set implicit wait to 20000ms
+2020-10-22 15:55:04:603 [W3C (017470ca)] Responding to client with driver.timeouts() result: null
+2020-10-22 15:55:04:606 [HTTP] <-- POST /wd/hub/session/017470ca-82b9-4280-9a5e-90f0dab7bd2e/timeouts 200 53 ms - 14
+2020-10-22 15:55:04:607 [HTTP] 
+2020-10-22 15:55:13:625 [HTTP] --> GET /wd/hub/session/017470ca-82b9-4280-9a5e-90f0dab7bd2e/context
+2020-10-22 15:55:13:626 [HTTP] {}
+2020-10-22 15:55:13:636 [W3C (017470ca)] Calling AppiumDriver.getCurrentContext() with args: ["017470ca-82b9-4280-9a5e-90f0dab7bd2e"]
+2020-10-22 15:55:13:640 [W3C (017470ca)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2020-10-22 15:55:13:643 [HTTP] <-- GET /wd/hub/session/017470ca-82b9-4280-9a5e-90f0dab7bd2e/context 200 16 ms - 22
+2020-10-22 15:55:13:643 [HTTP] 
+2020-10-22 15:55:13:652 [HTTP] --> POST /wd/hub/session/017470ca-82b9-4280-9a5e-90f0dab7bd2e/element
+2020-10-22 15:55:13:653 [HTTP] {"using":"id","value":"com.squats.fittr:id/left_button_layout"}
+2020-10-22 15:55:13:654 [W3C (017470ca)] Calling AppiumDriver.findElement() with args: ["id","com.squats.fittr:id/left_button_layout","017470ca-82b9-4280-9a5e-90f0dab7bd2e"]
+2020-10-22 15:55:13:657 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-10-22 15:55:13:658 [BaseDriver] Waiting up to 20000 ms for condition
+2020-10-22 15:55:13:659 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-10-22 15:55:13:660 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/534ae067-eac9-45e8-a987-5a827674e4d1/element] with body: {"strategy":"id","selector":"com.squats.fittr:id/left_button_layout","context":"","multiple":false}
+2020-10-22 15:55:16:761 [WD Proxy] Got response with status 200: {"sessionId":"534ae067-eac9-45e8-a987-5a827674e4d1","value":{"ELEMENT":"d2ecbbe1-8474-4f19-b0ff-6b24b849565e","element-6066-11e4-a52e-4f735466cecf":"d2ecbbe1-8474-4f19-b0ff-6b24b849565e"}}
+2020-10-22 15:55:16:763 [W3C (017470ca)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"d2ecbbe1-8474-4f19-b0ff-6b24b849565e","ELEMENT":"d2ecbbe1-8474-4f19-b0ff-6b24b849565e"}
+2020-10-22 15:55:16:766 [HTTP] <-- POST /wd/hub/session/017470ca-82b9-4280-9a5e-90f0dab7bd2e/element 200 3112 ms - 137
+2020-10-22 15:55:16:767 [HTTP] 
+2020-10-22 15:55:16:775 [HTTP] --> POST /wd/hub/session/017470ca-82b9-4280-9a5e-90f0dab7bd2e/element/d2ecbbe1-8474-4f19-b0ff-6b24b849565e/click
+2020-10-22 15:55:16:776 [HTTP] {"id":"d2ecbbe1-8474-4f19-b0ff-6b24b849565e"}
+2020-10-22 15:55:16:778 [W3C (017470ca)] Calling AppiumDriver.click() with args: ["d2ecbbe1-8474-4f19-b0ff-6b24b849565e","017470ca-82b9-4280-9a5e-90f0dab7bd2e"]
+2020-10-22 15:55:16:782 [WD Proxy] Matched '/element/d2ecbbe1-8474-4f19-b0ff-6b24b849565e/click' to command name 'click'
+2020-10-22 15:55:16:783 [WD Proxy] Proxying [POST /element/d2ecbbe1-8474-4f19-b0ff-6b24b849565e/click] to [POST http://localhost:8200/wd/hub/session/534ae067-eac9-45e8-a987-5a827674e4d1/element/d2ecbbe1-8474-4f19-b0ff-6b24b849565e/click] with body: {"element":"d2ecbbe1-8474-4f19-b0ff-6b24b849565e"}
+2020-10-22 15:55:18:058 [WD Proxy] Got response with status 200: {"sessionId":"534ae067-eac9-45e8-a987-5a827674e4d1","value":null}
+2020-10-22 15:55:18:062 [W3C (017470ca)] Responding to client with driver.click() result: null
+2020-10-22 15:55:18:068 [HTTP] <-- POST /wd/hub/session/017470ca-82b9-4280-9a5e-90f0dab7bd2e/element/d2ecbbe1-8474-4f19-b0ff-6b24b849565e/click 200 1289 ms - 14
+2020-10-22 15:55:18:070 [HTTP] 
+2020-10-22 15:55:18:088 [HTTP] --> GET /wd/hub/session/017470ca-82b9-4280-9a5e-90f0dab7bd2e/context
+2020-10-22 15:55:18:090 [HTTP] {}
+2020-10-22 15:55:18:094 [W3C (017470ca)] Calling AppiumDriver.getCurrentContext() with args: ["017470ca-82b9-4280-9a5e-90f0dab7bd2e"]
+2020-10-22 15:55:18:104 [W3C (017470ca)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2020-10-22 15:55:18:108 [HTTP] <-- GET /wd/hub/session/017470ca-82b9-4280-9a5e-90f0dab7bd2e/context 200 18 ms - 22
+2020-10-22 15:55:18:109 [HTTP] 
+2020-10-22 15:55:18:116 [HTTP] --> POST /wd/hub/session/017470ca-82b9-4280-9a5e-90f0dab7bd2e/element
+2020-10-22 15:55:18:117 [HTTP] {"using":"id","value":"com.squats.fittr:id/logout"}
+2020-10-22 15:55:18:119 [W3C (017470ca)] Calling AppiumDriver.findElement() with args: ["id","com.squats.fittr:id/logout","017470ca-82b9-4280-9a5e-90f0dab7bd2e"]
+2020-10-22 15:55:18:123 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-10-22 15:55:18:124 [BaseDriver] Waiting up to 20000 ms for condition
+2020-10-22 15:55:18:126 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-10-22 15:55:18:127 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/534ae067-eac9-45e8-a987-5a827674e4d1/element] with body: {"strategy":"id","selector":"com.squats.fittr:id/logout","context":"","multiple":false}
+2020-10-22 15:55:19:124 [WD Proxy] Got response with status 200: {"sessionId":"534ae067-eac9-45e8-a987-5a827674e4d1","value":{"ELEMENT":"018bcfcd-82b3-4e67-91e1-9953c795603f","element-6066-11e4-a52e-4f735466cecf":"018bcfcd-82b3-4e67-91e1-9953c795603f"}}
+2020-10-22 15:55:19:130 [W3C (017470ca)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"018bcfcd-82b3-4e67-91e1-9953c795603f","ELEMENT":"018bcfcd-82b3-4e67-91e1-9953c795603f"}
+2020-10-22 15:55:19:133 [HTTP] <-- POST /wd/hub/session/017470ca-82b9-4280-9a5e-90f0dab7bd2e/element 200 1016 ms - 137
+2020-10-22 15:55:19:134 [HTTP] 
+2020-10-22 15:55:19:141 [HTTP] --> POST /wd/hub/session/017470ca-82b9-4280-9a5e-90f0dab7bd2e/element/018bcfcd-82b3-4e67-91e1-9953c795603f/click
+2020-10-22 15:55:19:142 [HTTP] {"id":"018bcfcd-82b3-4e67-91e1-9953c795603f"}
+2020-10-22 15:55:19:143 [W3C (017470ca)] Calling AppiumDriver.click() with args: ["018bcfcd-82b3-4e67-91e1-9953c795603f","017470ca-82b9-4280-9a5e-90f0dab7bd2e"]
+2020-10-22 15:55:19:147 [WD Proxy] Matched '/element/018bcfcd-82b3-4e67-91e1-9953c795603f/click' to command name 'click'
+2020-10-22 15:55:19:147 [WD Proxy] Proxying [POST /element/018bcfcd-82b3-4e67-91e1-9953c795603f/click] to [POST http://localhost:8200/wd/hub/session/534ae067-eac9-45e8-a987-5a827674e4d1/element/018bcfcd-82b3-4e67-91e1-9953c795603f/click] with body: {"element":"018bcfcd-82b3-4e67-91e1-9953c795603f"}
+2020-10-22 15:55:19:208 [WD Proxy] Got response with status 200: {"sessionId":"534ae067-eac9-45e8-a987-5a827674e4d1","value":null}
+2020-10-22 15:55:19:209 [W3C (017470ca)] Responding to client with driver.click() result: null
+2020-10-22 15:55:19:211 [HTTP] <-- POST /wd/hub/session/017470ca-82b9-4280-9a5e-90f0dab7bd2e/element/018bcfcd-82b3-4e67-91e1-9953c795603f/click 200 69 ms - 14
+2020-10-22 15:55:19:211 [HTTP] 
+2020-10-22 15:55:19:218 [HTTP] --> GET /wd/hub/session/017470ca-82b9-4280-9a5e-90f0dab7bd2e/context
+2020-10-22 15:55:19:218 [HTTP] {}
+2020-10-22 15:55:19:219 [W3C (017470ca)] Calling AppiumDriver.getCurrentContext() with args: ["017470ca-82b9-4280-9a5e-90f0dab7bd2e"]
+2020-10-22 15:55:19:221 [W3C (017470ca)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2020-10-22 15:55:19:223 [HTTP] <-- GET /wd/hub/session/017470ca-82b9-4280-9a5e-90f0dab7bd2e/context 200 4 ms - 22
+2020-10-22 15:55:19:224 [HTTP] 
+2020-10-22 15:55:19:229 [HTTP] --> POST /wd/hub/session/017470ca-82b9-4280-9a5e-90f0dab7bd2e/element
+2020-10-22 15:55:19:229 [HTTP] {"using":"xpath","value":"//android.widget.TextView[@text='To proceed further, please login']"}
+2020-10-22 15:55:19:230 [W3C (017470ca)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@text='To proceed further, please login']","017470ca-82b9-4280-9a5e-90f0dab7bd2e"]
+2020-10-22 15:55:19:231 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-10-22 15:55:19:232 [BaseDriver] Waiting up to 20000 ms for condition
+2020-10-22 15:55:19:233 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-10-22 15:55:19:234 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/534ae067-eac9-45e8-a987-5a827674e4d1/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@text='To proceed further, please login']","context":"","multiple":false}
+2020-10-22 15:55:20:585 [WD Proxy] Got response with status 200: {"sessionId":"534ae067-eac9-45e8-a987-5a827674e4d1","value":{"ELEMENT":"f9cc1d23-4448-47b2-b795-999137c39562","element-6066-11e4-a52e-4f735466cecf":"f9cc1d23-4448-47b2-b795-999137c39562"}}
+2020-10-22 15:55:20:587 [W3C (017470ca)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"f9cc1d23-4448-47b2-b795-999137c39562","ELEMENT":"f9cc1d23-4448-47b2-b795-999137c39562"}
+2020-10-22 15:55:20:591 [HTTP] <-- POST /wd/hub/session/017470ca-82b9-4280-9a5e-90f0dab7bd2e/element 200 1360 ms - 137
+2020-10-22 15:55:20:592 [HTTP] 
+2020-10-22 15:55:20:600 [HTTP] --> GET /wd/hub/session/017470ca-82b9-4280-9a5e-90f0dab7bd2e/element/f9cc1d23-4448-47b2-b795-999137c39562/text
+2020-10-22 15:55:20:601 [HTTP] {}
+2020-10-22 15:55:20:605 [W3C (017470ca)] Driver proxy active, passing request on via HTTP proxy
+2020-10-22 15:55:20:616 [WD Proxy] Matched '/wd/hub/session/017470ca-82b9-4280-9a5e-90f0dab7bd2e/element/f9cc1d23-4448-47b2-b795-999137c39562/text' to command name 'getText'
+2020-10-22 15:55:20:617 [WD Proxy] Proxying [GET /wd/hub/session/017470ca-82b9-4280-9a5e-90f0dab7bd2e/element/f9cc1d23-4448-47b2-b795-999137c39562/text] to [GET http://localhost:8200/wd/hub/session/534ae067-eac9-45e8-a987-5a827674e4d1/element/f9cc1d23-4448-47b2-b795-999137c39562/text] with body: {}
+2020-10-22 15:55:20:864 [WD Proxy] Got response with status 200: {"sessionId":"534ae067-eac9-45e8-a987-5a827674e4d1","value":"To proceed further, please login"}
+2020-10-22 15:55:20:866 [WD Proxy] Replacing sessionId 534ae067-eac9-45e8-a987-5a827674e4d1 with 017470ca-82b9-4280-9a5e-90f0dab7bd2e
+2020-10-22 15:55:20:871 [HTTP] <-- GET /wd/hub/session/017470ca-82b9-4280-9a5e-90f0dab7bd2e/element/f9cc1d23-4448-47b2-b795-999137c39562/text 200 268 ms - 95
+2020-10-22 15:55:20:872 [HTTP] 
+2020-10-22 15:55:20:893 [HTTP] --> GET /wd/hub/session/017470ca-82b9-4280-9a5e-90f0dab7bd2e/context
+2020-10-22 15:55:20:893 [HTTP] {}
+2020-10-22 15:55:20:894 [W3C (017470ca)] Calling AppiumDriver.getCurrentContext() with args: ["017470ca-82b9-4280-9a5e-90f0dab7bd2e"]
+2020-10-22 15:55:20:896 [W3C (017470ca)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2020-10-22 15:55:20:898 [HTTP] <-- GET /wd/hub/session/017470ca-82b9-4280-9a5e-90f0dab7bd2e/context 200 4 ms - 22
+2020-10-22 15:55:20:898 [HTTP] 
+2020-10-22 15:55:20:903 [HTTP] --> POST /wd/hub/session/017470ca-82b9-4280-9a5e-90f0dab7bd2e/element
+2020-10-22 15:55:20:903 [HTTP] {"using":"xpath","value":"//android.widget.TextView[@text='To proceed further, please login']"}
+2020-10-22 15:55:20:904 [W3C (017470ca)] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@text='To proceed further, please login']","017470ca-82b9-4280-9a5e-90f0dab7bd2e"]
+2020-10-22 15:55:20:909 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-10-22 15:55:20:909 [BaseDriver] Waiting up to 20000 ms for condition
+2020-10-22 15:55:20:916 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-10-22 15:55:20:917 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/534ae067-eac9-45e8-a987-5a827674e4d1/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@text='To proceed further, please login']","context":"","multiple":false}
+2020-10-22 15:55:21:098 [WD Proxy] Got response with status 200: {"sessionId":"534ae067-eac9-45e8-a987-5a827674e4d1","value":{"ELEMENT":"5f559aa6-3daf-4b5c-b026-a16fcfa872f0","element-6066-11e4-a52e-4f735466cecf":"5f559aa6-3daf-4b5c-b026-a16fcfa872f0"}}
+2020-10-22 15:55:21:100 [W3C (017470ca)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"5f559aa6-3daf-4b5c-b026-a16fcfa872f0","ELEMENT":"5f559aa6-3daf-4b5c-b026-a16fcfa872f0"}
+2020-10-22 15:55:21:102 [HTTP] <-- POST /wd/hub/session/017470ca-82b9-4280-9a5e-90f0dab7bd2e/element 200 197 ms - 137
+2020-10-22 15:55:21:102 [HTTP] 
+2020-10-22 15:55:21:111 [HTTP] --> GET /wd/hub/session/017470ca-82b9-4280-9a5e-90f0dab7bd2e/element/5f559aa6-3daf-4b5c-b026-a16fcfa872f0/text
+2020-10-22 15:55:21:111 [HTTP] {}
+2020-10-22 15:55:21:113 [W3C (017470ca)] Driver proxy active, passing request on via HTTP proxy
+2020-10-22 15:55:21:117 [WD Proxy] Matched '/wd/hub/session/017470ca-82b9-4280-9a5e-90f0dab7bd2e/element/5f559aa6-3daf-4b5c-b026-a16fcfa872f0/text' to command name 'getText'
+2020-10-22 15:55:21:118 [WD Proxy] Proxying [GET /wd/hub/session/017470ca-82b9-4280-9a5e-90f0dab7bd2e/element/5f559aa6-3daf-4b5c-b026-a16fcfa872f0/text] to [GET http://localhost:8200/wd/hub/session/534ae067-eac9-45e8-a987-5a827674e4d1/element/5f559aa6-3daf-4b5c-b026-a16fcfa872f0/text] with body: {}
+2020-10-22 15:55:21:146 [WD Proxy] Got response with status 200: {"sessionId":"534ae067-eac9-45e8-a987-5a827674e4d1","value":"To proceed further, please login"}
+2020-10-22 15:55:21:146 [WD Proxy] Replacing sessionId 534ae067-eac9-45e8-a987-5a827674e4d1 with 017470ca-82b9-4280-9a5e-90f0dab7bd2e
+2020-10-22 15:55:21:149 [HTTP] <-- GET /wd/hub/session/017470ca-82b9-4280-9a5e-90f0dab7bd2e/element/5f559aa6-3daf-4b5c-b026-a16fcfa872f0/text 200 37 ms - 95
+2020-10-22 15:55:21:149 [HTTP] 
+2020-10-22 15:55:21:156 [HTTP] --> DELETE /wd/hub/session/017470ca-82b9-4280-9a5e-90f0dab7bd2e
+2020-10-22 15:55:21:157 [HTTP] {}
+2020-10-22 15:55:21:159 [W3C (017470ca)] Calling AppiumDriver.deleteSession() with args: ["017470ca-82b9-4280-9a5e-90f0dab7bd2e"]
+2020-10-22 15:55:21:160 [BaseDriver] Event 'quitSessionRequested' logged at 1603362321159 (15:55:21 GMT+0530 (India Standard Time))
+2020-10-22 15:55:21:161 [Appium] Removing session 017470ca-82b9-4280-9a5e-90f0dab7bd2e from our master session list
+2020-10-22 15:55:21:163 [UiAutomator2] Deleting UiAutomator2 session
+2020-10-22 15:55:21:164 [UiAutomator2] Deleting UiAutomator2 server session
+2020-10-22 15:55:21:165 [WD Proxy] Matched '/' to command name 'deleteSession'
+2020-10-22 15:55:21:166 [WD Proxy] Proxying [DELETE /] to [DELETE http://localhost:8200/wd/hub/session/534ae067-eac9-45e8-a987-5a827674e4d1] with no body
+2020-10-22 15:55:21:192 [WD Proxy] Got response with status 200: {"sessionId":"534ae067-eac9-45e8-a987-5a827674e4d1","value":null}
+2020-10-22 15:55:21:193 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 67e0c2a5 shell am force-stop com.squats.fittr'
+2020-10-22 15:55:21:344 [Logcat] Stopping logcat capture
+2020-10-22 15:55:21:351 [ADB] Removing forwarded port socket connection: 8200 
+2020-10-22 15:55:21:351 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 67e0c2a5 forward --remove tcp\:8200'
+2020-10-22 15:55:21:414 [UiAutomator2] Restoring hidden api policy to the device default configuration
+2020-10-22 15:55:21:414 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 67e0c2a5 shell settings delete global hidden_api_policy_pre_p_apps'
+2020-10-22 15:55:21:521 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 67e0c2a5 shell settings delete global hidden_api_policy_p_apps'
+2020-10-22 15:55:21:629 [ADB] Running 'C:\Users\akshay.s\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 67e0c2a5 shell settings delete global hidden_api_policy'
+2020-10-22 15:55:21:774 [BaseDriver] Event 'quitSessionFinished' logged at 1603362321773 (15:55:21 GMT+0530 (India Standard Time))

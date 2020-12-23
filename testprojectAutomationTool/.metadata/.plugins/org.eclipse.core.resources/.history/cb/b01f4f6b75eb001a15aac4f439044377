@@ -1,0 +1,11 @@
+package base;
+
+public class ScreenBase {
+	
+	private AndroidDriver driver;
+	
+	public ScreenBase() {
+		
+	}
+
+}

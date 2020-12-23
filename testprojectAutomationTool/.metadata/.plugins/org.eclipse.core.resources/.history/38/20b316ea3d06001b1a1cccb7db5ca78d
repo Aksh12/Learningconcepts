@@ -1,0 +1,30 @@
+package basicJavaCoding;
+
+import java.util.Scanner;
+
+public class ArrayConcept {
+
+	static Scanner sc= new Scanner(System.in);
+	static int num;
+	 
+	public static void main(String[] args) {
+		num = sc.nextInt();	
+		int[] a= new int[num];
+		
+		System.out.println("Enter " +  num +  " numbers ");
+		for(int i=1; i<=num; i++) {
+			
+			int j = sc.nextInt();
+			System.out.println(j+" New Number");
+	
+		
+		}
+		
+		
+		
+		
+		System.out.println("Entered required inputs");
+	
+	}
+
+}

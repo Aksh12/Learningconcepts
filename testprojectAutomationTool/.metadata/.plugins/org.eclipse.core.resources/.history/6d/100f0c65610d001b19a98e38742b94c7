@@ -1,0 +1,66 @@
+package basicJavaCoding;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map.Entry;
+import java.util.Set;
+
+
+
+public class DuplicateElements {
+
+	
+	public static void main(String[] args) {
+		
+		//String [] s = {"java","python","jva script","jva script","pthon","pthon"};
+		String y = "java python java j c";
+	
+		String s[]=y.split(" ");
+		
+		
+		boolean flag = false;
+
+		System.out.println(s.length);
+		for( int i=0; i<=s.length; i++) {
+			for (int j=i+1; j<s.length; j++) {
+				if(s[i] == s[j]) {
+					System.out.println("s[i] and s[j] " + s[i] +" : "+ s[j]);		
+					
+				}
+			}
+		}
+
+		
+		System.out.println("--------------");
+		
+		Set<String> store = new HashSet<String>();
+		for(String name : s) {
+			if(store.add(name)==false) {
+				System.out.println("Duplicate element is found::" + name);
+			}
+		}
+		
+		System.out.println("---------");
+		
+		HashMap<String,Integer> hm = new HashMap<String, Integer>();
+		for(String name :  s) {
+			System.out.println(hm.get(name));
+			Integer count = hm.get(name);
+			
+			if(count == null) {
+				hm.put(name, 1);
+			}else {
+				hm.put(name, ++count);
+			}
+		}
+		
+		Set<Entry<String, Integer>> entrySet =  hm.entrySet();
+		
+		for(Entry<String, Integer> entry : entrySet) {
+			if(entry.getValue()>1) {
+				System.out.println("Duplicate element is : " + entry.getKey() + " :: " + entry.getValue());
+			}
+		}
+	}
+
+}

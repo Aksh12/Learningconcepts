@@ -1,0 +1,34 @@
+package basicJavaCoding;
+
+import java.util.Scanner;
+
+public class CalculatePowerOfNumber {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter base");
+		int base = sc.nextInt();
+		
+		System.out.println("enter Exponenet");
+		int expo = sc.nextInt();
+		int temp=1;
+		int result=0;
+		
+		System.out.println(Math.pow(base, expo));
+		
+		//3^4 = 81
+		if(expo != 0) {
+		for(int i=1; i<=expo; i++) {
+			result = temp*base;
+			temp=result;
+		}
+		System.out.println(base+"^"+expo+"= : "+ temp);
+		}else {
+			System.out.println(base+"^"+expo+"= : "+ temp);
+		}
+		
+
+	}
+
+}

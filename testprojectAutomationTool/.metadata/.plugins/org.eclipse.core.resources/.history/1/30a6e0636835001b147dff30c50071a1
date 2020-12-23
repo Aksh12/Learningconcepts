@@ -1,0 +1,15 @@
+package constants;
+
+public class Constants {
+	
+	public static final String SELECT_LANGUAGE_XPATH="//android.widget.TextView[@text='PLEASE SELECT YOUR LANGUAGE']";
+	public static final String SELECT_ENGLISH_XPATH="//android.widget.TextView[@content-desc='btnText_Select_select_language_en']";
+	public static final String SELECT_HINDI_XPATH="//android.widget.TextView[@content-desc='btnText_Select_select_language_hi']";
+	public static final String SELECT_TAMIL_XPATH="//android.widget.TextView[@content-desc='btnText_Select_select_language_ta']";
+	public static final String SELECT_AGREECOTINUE_XPATH="//android.widget.TextView[@content-desc='btnText_welcome_screen_continue']";
+	public static final String SELECT_ADDCROP_XPATH="//android.widget.TextView[@content-desc='btnText_add_crop']";
+	public static final String SELECT_FARMNAME_XPATH="//android.widget.TextView[@text='Name of your farm']";
+	
+	
+
+}

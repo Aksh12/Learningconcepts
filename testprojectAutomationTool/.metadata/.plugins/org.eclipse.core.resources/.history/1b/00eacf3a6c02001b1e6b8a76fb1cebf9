@@ -1,0 +1,46 @@
+package basicJavaCoding;
+
+import java.util.Scanner;
+
+public class PrimeNumbersBetweenIntervals {
+
+	public static void main(String[] args) {
+
+		Scanner sc  = new Scanner(System.in);
+		System.out.println("enter starting");
+		int a = sc.nextInt();
+		System.out.println("enter ending");
+		int b = sc.nextInt();
+		boolean flag = false;
+		int count = 0;
+		
+		//a=2;
+		//b=50;
+		
+		while(a<=b) {
+		//System.out.println("a : " + a);
+			for(int i=2; i<a/2; i++) {
+				System.out.println("a inside : " + a);
+				System.out.println("i inside : " + i);
+				if(a%i==0) {
+					flag=true;
+					break;
+				}
+			}
+			
+			if(!flag) {
+				System.out.println("number is a prime : " + a);
+				count++;
+			}else {
+				System.out.println("Number is not a prime : " + a);
+			}
+			a++;
+		}
+		
+		System.out.println("number of primes between two intervales is : " + count);
+
+
+
+	}
+
+}

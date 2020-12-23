@@ -1,0 +1,37 @@
+package basicJavaCoding;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class FindLargestSmallestNumberInArray {
+
+	public static void main(String[] args) {
+		
+		int numbers[] = {1,2,-88,23,22};
+		int largest = numbers[0];
+		int smallest = numbers[2];
+		boolean flag=false;
+		
+		//Set<Integer> num = new HashSet<Integer>();
+		
+		for(int i=1; i<numbers.length; i++) {
+			if(largest<numbers[i]) {
+				largest=numbers[i];
+				flag=true;
+				//System.out.println("largest : " + largest);
+			}else if(smallest>numbers[i]) {
+				smallest=numbers[i];
+				System.out.println("Smallest : " + smallest);
+			}
+			
+		}
+		
+		if(flag==true) {
+			System.out.println("largest : " + largest);
+		}else {
+			System.out.println("Smallest : " + smallest);
+		}
+
+	}
+
+}

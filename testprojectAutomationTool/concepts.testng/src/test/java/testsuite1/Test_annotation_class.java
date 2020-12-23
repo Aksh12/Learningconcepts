@@ -1,0 +1,12 @@
+package testsuite1;
+
+import org.testng.annotations.Test;
+
+public class Test_annotation_class {
+	
+	@Test
+	public void testMethod2() {
+		System.out.println("am under 'test method 2'");
+	}
+
+}

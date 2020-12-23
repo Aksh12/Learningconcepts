@@ -1,0 +1,4 @@
+INFO    2020-10-22 15:54:47,811 [main] base.TestBase  - Appium Server Started !!
+INFO    2020-10-22 15:54:47,811 [main] base.TestBase  - fittr_Android.properties properties file loaded !!!
+INFO    2020-10-22 15:55:21,786 [main] base.TestBase  - Test case execution completed
+INFO    2020-10-22 15:55:21,837 [main] base.TestBase  - Appium server stopped !!!

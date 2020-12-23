@@ -1,0 +1,21 @@
+package basicJavaCoding;
+
+import java.util.Scanner;
+
+public class DesignCalculatorUsingSwitch {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter number to display operation");
+		int num = sc.nextInt();
+		//String [] operand = {"*X", "/" , "-", "+"};
+		char c=null;
+		
+		switch(c) {
+		
+		}
+		
+
+	}
+
+}

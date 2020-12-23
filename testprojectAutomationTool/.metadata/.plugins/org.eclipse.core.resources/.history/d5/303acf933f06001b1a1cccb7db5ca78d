@@ -1,0 +1,29 @@
+package basicJavaCoding;
+
+import java.util.Scanner;
+
+public class ArrayConcept {
+
+		public static int i;
+		public static void main (String[] args)
+		{
+		    Scanner input = new Scanner(System.in);
+		    int[] numbers = new int[5];
+		    System.out.println("Please enter 5 number");
+		    for ( i = 0; i <= numbers.length; i++)
+		    {
+		        System.out.println(" i : " +i);
+		        numbers[i] = input.nextInt();
+		       if(i==5) {
+		    	   System.out.println("Am in i");
+		    	   break;
+		       }
+		    }
+		    
+		   System.out.println(numbers[i]);
+		}
+
+	
+	}
+
+

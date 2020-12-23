@@ -1,0 +1,45 @@
+package basicJavaCoding;
+
+import java.util.Scanner;
+
+public class DecimalToBinary {
+	static long result=0;
+	static long rev=0;
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Decimal number to get binary (Example : 9)");
+		long binary = sc.nextLong();
+		long remainder = binary;
+		//long remainder;
+		long Quotient;
+		//long result=0;
+		
+		while(binary != 0) {
+			remainder = binary;
+			Quotient=binary/2;//4
+			binary=Quotient;
+			System.out.println("Quotient : " + binary);
+			remainder= remainder%2;//1
+			System.out.println("remainder : " + remainder);
+			result=result*10+remainder;
+			
+			
+		}
+		
+		System.out.println("reverse : " + reverseResult(result));
+
+	}
+	
+	public static long reverseResult(long number) {
+		
+		while(result != 0) {
+			result = result%10;
+			 rev = rev*10+result;
+			result=result/10;
+			
+		}
+		return result;
+		
+	}
+
+}

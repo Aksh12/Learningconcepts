@@ -1,0 +1,5 @@
+2020-10-08 20:06:16:665 [Appium] Welcome to Appium v1.15.1
+2020-10-08 20:06:16:668 [Appium] Non-default server args:
+2020-10-08 20:06:16:672 [Appium]   logFile: D:\2.Learning_Paths\eclipse-workspace\testprojectAutomationTool\amazonapp\src\test\resources\logs\logs.txt
+2020-10-08 20:06:16:673 [Appium]   localTimezone: true
+2020-10-08 20:06:16:769 [HTTP] Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.

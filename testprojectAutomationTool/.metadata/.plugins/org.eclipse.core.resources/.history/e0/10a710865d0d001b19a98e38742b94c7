@@ -1,0 +1,32 @@
+package basicJavaCoding;
+
+public class DuplicateElements {
+
+	
+	public static void main(String[] args) {
+		
+		String [] s = {"java","python","jva script","jva script","pthon","pthon"};
+		boolean flag = false;
+		int i;
+		int j = 0;
+		System.out.println(s.length);
+		for( i=0; i<=s.length; i++) {
+			
+			for ( j=i+1; j<s.length; j++) {
+				if(s[i] == s[j]) {
+					System.out.println("s[i] and s[j] " + s[i] +" : "+ s[j]);
+					flag=true;
+					
+				}
+			}
+		}
+
+		if(flag == true) {
+			System.out.println("Match found");
+			
+		}else {
+			System.out.println("No match found");
+		}
+	}
+
+}

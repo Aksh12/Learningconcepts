@@ -1,0 +1,6 @@
+2020-07-25 17:54:50:377 [Appium] Welcome to Appium v1.15.1
+2020-07-25 17:54:50:379 [Appium] Non-default server args:
+2020-07-25 17:54:50:380 [Appium]   logFile: D:\2.Learning_Paths\eclipse-workspace\testprojectAutomationTool\com.amazonapp\src\test\resources\logs\logs.txt
+2020-07-25 17:54:50:380 [Appium]   localTimezone: true
+2020-07-25 17:54:50:474 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2020-07-25 17:54:50:914 [HTTP] --> GET /wd/hub/status

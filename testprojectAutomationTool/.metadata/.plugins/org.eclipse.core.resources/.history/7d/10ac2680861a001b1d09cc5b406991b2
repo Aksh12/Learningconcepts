@@ -1,0 +1,31 @@
+package collectionsconcept;
+
+import java.io.FileInputStream;
+
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class Reader {
+
+	public static String fileName = "./TestData.xlsx";
+	public static FileInputStream fis;
+	public static XSSFWorkbook workBook;
+	public static XSSFSheet sheet;
+	public static XSSFRow rows;
+	
+	
+	public static void loadExcel() throws Exception{
+		
+		fis = new FileInputStream(fileName);
+		workBook = new XSSFWorkbook(fis);
+		sheet = workBook.getSheet("data");
+		fis.close();
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

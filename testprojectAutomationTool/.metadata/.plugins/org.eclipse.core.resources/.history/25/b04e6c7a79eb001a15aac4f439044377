@@ -1,0 +1,14 @@
+package base;
+
+
+public class ScreenBase {
+	
+	public static AndroidDriver  driver ;
+	//public static WebDriverWait wait;
+	
+	public ScreenBase(AndroidDriver  driver) {
+		this.driver=driver;
+	}
+	}
+
+

@@ -1,0 +1,13 @@
+package dataprovider;
+
+import org.testng.annotations.Test;
+
+public class DataProviderExample {
+	
+	@Test
+	public void calculate(int a, int b) {
+		int sum=(a+b);
+		System.out.println("a+b =  " + sum);
+	}
+
+}

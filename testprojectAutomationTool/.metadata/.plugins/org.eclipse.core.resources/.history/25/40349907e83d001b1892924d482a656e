@@ -1,0 +1,43 @@
+package testsuite1;
+
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+public class BeforeClassExample {
+	
+	
+	@BeforeClass
+	public void myBeforeClass() {
+	System.out.println("under 'before class'");	
+	}
+	
+	@BeforeMethod
+	public void myBeforeMethod() {
+		System.out.println("under 'before method' ");
+	}
+	
+	@Test
+	public void testMethod1() {
+		System.out.println("under 'Test 1' Method");
+	}
+	
+
+	@Test
+	public void testMethod2() {
+		System.out.println("under 'Test 2' Method");
+	}
+	
+	@AfterMethod
+	public void myAfterMethod() {
+		System.out.println("under 'After method' ");
+	}
+	
+	@AfterClass
+	public void myAfterClass() {
+	System.out.println("under 'After class'");	
+	}
+
+}

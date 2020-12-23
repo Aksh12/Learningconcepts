@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;XP880automationframework&apos; to &apos;XP8800automationframework&apos;" description="Rename resource &apos;XP880automationframework&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/XP880automationframework" name="XP8800automationframework" stamp="1600256343179" updateReferences="true"/>
+</session>

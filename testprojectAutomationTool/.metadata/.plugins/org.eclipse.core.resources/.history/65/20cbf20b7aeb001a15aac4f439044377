@@ -1,0 +1,15 @@
+package base;
+
+import io.testproject.sdk.drivers.android.AndroidDriver;
+
+public class ScreenBase {
+	
+	public  AndroidDriver driver ;
+	//public static WebDriverWait wait;
+	
+	public ScreenBase(AndroidDriver  driver) {
+		this.driver=driver;
+	}
+	}
+
+

@@ -1,0 +1,40 @@
+package basicJavaCoding;
+
+import java.util.Scanner;
+
+public class BinaryToDecimal {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter binary number to get decimal (Example : 100)");
+		long binary = sc.nextLong();
+		long count=0;
+		long num;
+		long result=0;
+		long power=0;
+
+		while(binary != 0) {
+			num=binary%10;
+			power=0;
+			System.out.println("---------------");
+			for(int i=0;i<=count; i++) {
+				System.out.println("count:" + count);
+				power=power+(count*2);
+				System.out.println("power : " + power);
+				
+			}
+			System.out.println("--------------");
+				//int power =(int) Math.pow(2, count);
+				result=result+num*power;
+			//	System.out.println("r : " + result);
+				binary=binary/10;
+				count++;
+			
+	}
+		//System.out.println("result : " + result);
+		
+	}
+	
+
+	}

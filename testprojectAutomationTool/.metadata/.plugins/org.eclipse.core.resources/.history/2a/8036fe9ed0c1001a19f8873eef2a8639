@@ -1,0 +1,69 @@
+package screens;
+
+import java.util.List;
+
+import org.openqa.selenium.WebElement;
+
+import base.ScreenBase;
+import io.appium.java_client.TouchAction;
+import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.pagefactory.AndroidFindBy;
+import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import io.appium.java_client.touch.LongPressOptions;
+import io.appium.java_client.touch.offset.ElementOption;
+import io.appium.java_client.touch.offset.PointOption;
+import io.testproject.java.sdk.v2.drivers.AndroidDriver;
+import io.testproject.java.sdk.v2.support.PageFactory;
+
+public class MessageThreadScreen extends ScreenBase {
+
+	public MessageThreadScreen(AndroidDriver driver) {
+		super(driver);
+		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
+	}
+	
+	@AndroidFindBy(className="android.widget.TextView")
+	private  List <AndroidElement> msgOptions;
+	
+	@AndroidFindBy(id="com.verizon.messaging.vzmsgs:id/text")
+	private AndroidElement msgThread;
+	
+//	@AndroidFindBy(id="")
+//	private AndroidElement unlockMessage;
+
+	@AndroidFindBy(id="com.verizon.messaging.vzmsgs:id/lockMsg")
+	private AndroidElement lockMessage;
+	
+	
+//	@AndroidFindBy(id="")
+//	private AndroidElement copyMsgTxt;
+//	
+//	@AndroidFindBy(id="")
+//	private AndroidElement fwdMsg;
+//	
+//	@AndroidFindBy(id="")
+//	private AndroidElement msgInfo;
+//	
+//	@AndroidFindBy(id="")
+//	private AndroidElement dltMsg;
+	
+
+	public boolean messageOptions(String option) {
+		ScreenBase.longPressElement(msgThread);
+		int size = msgOptions.size();
+		for(int i=0; i<size; i++) {
+			if(msgOptions.get(i).getAttribute("text").equals(option)){
+				msgOptions.get(i).click();
+				break;
+			}
+
+	}
+		
+		if(lockMessage.isDisplayed()) {
+			return true;
+		}else {
+			return false;
+		}
+		
+	}
+}

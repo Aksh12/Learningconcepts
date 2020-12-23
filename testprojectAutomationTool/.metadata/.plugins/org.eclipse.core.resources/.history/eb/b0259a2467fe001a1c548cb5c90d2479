@@ -1,0 +1,59 @@
+package com.techm.testamazon;
+
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import io.appium.java_client.TouchAction;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.android.nativekey.AndroidKey;
+import io.appium.java_client.android.nativekey.KeyEvent;
+import io.appium.java_client.remote.MobileCapabilityType;
+
+public class TestRoughClass {
+	
+	public AndroidDriver<AndroidElement> driver;
+	public DesiredCapabilities caps = new DesiredCapabilities();
+	
+	@BeforeTest
+	public void setUp() throws IOException {
+		
+		caps.setCapability(MobileCapabilityType.PLATFORM_VERSION, "Android");
+		caps.setCapability(MobileCapabilityType.DEVICE_NAME, "Android");
+		caps.setCapability(MobileCapabilityType.PLATFORM_VERSION, "10");
+		caps.setCapability("appPackage", "in.amazon.mShop.android.shopping");
+		caps.setCapability("appActivity", "com.amazon.mShop.android.home.HomeActivity");
+		driver.manage().timeouts().setScriptTimeout(20, TimeUnit.SECONDS);
+		driver = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub"), caps);
+		
+		
+		
+	}
+	
+	@Test
+	public void test() {
+		
+		driver.findElementByXPath("//android.widget.ImageView[@content-desc=\"Continue in English\"]").click();
+		driver.findElementById("in.amazon.mShop.android.shopping:id/skip_sign_in_button").click();
+		driver.findElementById("in.amazon.mShop.android.shopping:id/rs_search_src_text").click();
+		driver.findElementById("in.amazon.mShop.android.shopping:id/rs_search_src_text").sendKeys("1 KG Almonds");
+		((AndroidDriver) driver).pressKey(new KeyEvent(AndroidKey.ENTER));
+		
+		
+}
+	
+	@AfterTest
+	public void afterTest() {
+		driver.quit();
+	}
+	
+}

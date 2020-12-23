@@ -1,0 +1,162 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-22T10:23:51.165Z",
+        "before": [
+          {
+            "result": {
+              "duration": 41494451800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.LoginFeature_TestSteps.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Fittr app login with already registered Gmail Account Test case",
+        "description": "",
+        "id": "fittr-app-login-feature;fittr-app-login-with-already-registered-gmail-account-test-case",
+        "after": [
+          {
+            "result": {
+              "duration": 718713000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.LoginFeature_TestSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 678580700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "stepDefinations.LoginFeature_TestSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3747556100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user selects Log in with Google option and chooses Gmail Account",
+            "match": {
+              "location": "stepDefinations.LoginFeature_TestSteps.user_selects_log_in_with_google_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7711954700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on Todays Schedule screen",
+            "match": {
+              "location": "stepDefinations.LoginFeature_TestSteps.user_is_on_todays_schedule_screen()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Fittr app login feature",
+    "description": "",
+    "id": "fittr-app-login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/fittrlogin.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-22T10:24:45.574Z",
+        "before": [
+          {
+            "result": {
+              "duration": 19046993900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.LoginFeature_TestSteps.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Fittr logout feature",
+        "description": "",
+        "id": "fittr-app-logout-feature;fittr-logout-feature",
+        "after": [
+          {
+            "result": {
+              "duration": 678268000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.LoginFeature_TestSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13457570900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on Hamburger menu",
+            "match": {
+              "location": "stepDefinations.LogoutFeature_TestSteps.user_clicks_on_hamburger_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2797185100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on logout option",
+            "match": {
+              "location": "stepDefinations.LogoutFeature_TestSteps.user_clicks_on_logout_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 264325000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on proceed to further screen",
+            "match": {
+              "location": "stepDefinations.LogoutFeature_TestSteps.user_is_on_proceed_to_further_screen()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Fittr app logout feature",
+    "description": "",
+    "id": "fittr-app-logout-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/fittrlogout.feature",
+    "tags": []
+  }
+]

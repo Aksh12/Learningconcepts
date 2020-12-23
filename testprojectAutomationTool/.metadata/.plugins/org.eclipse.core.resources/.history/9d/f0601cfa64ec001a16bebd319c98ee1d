@@ -1,0 +1,74 @@
+package utilities;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.net.URL;
+import java.util.Properties;
+
+import org.junit.jupiter.api.condition.EnabledIfEnvironmentVariable;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+import io.appium.java_client.remote.AndroidMobileCapabilityType;
+import io.appium.java_client.remote.MobileCapabilityType;
+import io.appium.java_client.remote.MobilePlatform;
+import io.testproject.sdk.drivers.TestProjectCapabilityType;
+import io.testproject.sdk.drivers.android.AndroidDriver;
+import io.testproject.sdk.internal.exceptions.AgentConnectException;
+import io.testproject.sdk.internal.exceptions.InvalidTokenException;
+import io.testproject.sdk.internal.exceptions.ObsoleteVersionException;
+
+public class CommonUtils {
+
+	private static AndroidDriver driver;
+	private static int IMPLICIT_WAIT;
+	private static int EXPLICIT_WAIT;
+	private static String PLATFORM_NAME;
+	private static String PLATFORM_VERSION;
+	private static String APPIUM_PORT_NUMBER;
+	private static String DUT_UDID;
+	private static String APP_PACKAGE;
+	private static String APP_ACTIVITY;
+	private static URL serverUrl;
+	private static DesiredCapabilities capabilities = new DesiredCapabilities();
+
+	public static void loadConfig(String loadConfigFile) throws IOException {
+		FileInputStream fis = new FileInputStream(
+				System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\" + loadConfigFile);
+		Properties pro = new Properties();
+		pro.load(fis);
+
+		IMPLICIT_WAIT = Integer.parseInt(pro.getProperty("implicit.wait"));
+		EXPLICIT_WAIT = Integer.parseInt(pro.getProperty("explicit.wait"));
+		DUT_UDID = pro.getProperty("DUT_UDID");
+		PLATFORM_NAME = pro.getProperty("platform.name");
+		PLATFORM_VERSION = pro.getProperty("platform.version");
+		APPIUM_PORT_NUMBER = pro.getProperty("appium.port");
+		APP_PACKAGE = pro.getProperty("base.package");
+		APP_ACTIVITY = pro.getProperty("activity.package");
+
+	}
+
+	public static void loadCapabilities() {
+
+		capabilities.setCapability(MobileCapabilityType.UDID, DUT_UDID);
+		capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
+		capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, PLATFORM_VERSION);
+		capabilities.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, APP_PACKAGE);
+		capabilities.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, APP_ACTIVITY);
+		// capabilities.setCapability(TestProjectCapabilityType., value);
+
+	}
+
+	@EnabledIfEnvironmentVariable(named = "TP_DEV_TOKEN", matches = "zmIUIf7il0_cibX2NHQQdDEzyUO1xIBxH-7NscagQ6s1")
+	public static AndroidDriver getDriver()
+			throws IOException, AgentConnectException, InvalidTokenException, ObsoleteVersionException {
+	
+		final String token = System.getenv("TP_DEV_TOKEN");
+		
+		System.out.println("am in get driver");
+		driver = new AndroidDriver(capabilities, "Project name Fittr");
+
+		return driver;
+	}
+
+}

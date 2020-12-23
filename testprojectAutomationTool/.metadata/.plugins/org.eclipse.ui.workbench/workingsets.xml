@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1592805850255_0" label="Java Main Sources" name="Java Main Sources">
+<item elementID="=soakSampleXP8/src\/main\/java=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=soakSampleXP8/src\/main\/resources=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1592805850273_1" label="Java Test Sources" name="Java Test Sources">
+<item elementID="=soakSampleXP8/src\/test\/java=/gradle_scope=/test=/=/gradle_used_by_scope=/test=/=/test=/true=/" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=soakSampleXP8/src\/test\/resources=/gradle_scope=/test=/=/gradle_used_by_scope=/test=/=/test=/true=/" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1600080628559_3" label="CucumberJava" name="CucumberJava">
+<item elementID="=CucumberJava" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1600256319272_4" label="XP8800automationframework" name="XP8800automationframework">
+<item elementID="=XP8800automationframework" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1600672403621_6" label="amazonapp" name="amazonapp">
+<item elementID="=amazonapp" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1600767892600_8" label="fittr" name="fittr">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/amazonapp/src/test/resources/logs" type="2"/>
+<item elementID="=com.fittr.app" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1600947213626_10" label="test" name="test">
+<item elementID="=XP8800automationframework" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=com.techm" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1600947247696_11" label="techm" name="techm">
+<item elementID="=com.techm" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1600947267620_12" label="xp8800" name="xp8800">
+<item elementID="=XP8800automationframework" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1600955567381_15" label="msg" name="msg">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/amazonapp" type="4"/>
+<item elementID="=Verizon_XP8800_MessageApplication" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1601020519133_17" label="flipkart" name="flipkart">
+<item elementID="=flipkart" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1601128308333_21" label="maz" name="maz">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/flipkart" type="4"/>
+<item elementID="=amazonapp" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1601201638609_23" label="concepts" name="concepts">
+<item elementID="=conceptsLearning" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1602155512383_25" label="fittrapplication_BDD" name="fittrapplication_BDD">
+<item elementID="=fittrapp" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1603019210989_27" label="webapp" name="webapp">
+<item elementID="=webappapu" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1605611676590_29" label="restapi" name="restapi">
+<item elementID="=restapi" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1606987598510_31" label="yara" name="yara">
+<item elementID="=appyara" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1607931103217_33" label="testng_concepts" name="testng_concepts">
+<item elementID="=concepts.testng" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1592805862264_2" label="Window Working Set" name="Aggregate for window 1592805862264"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1600256324218_5" label="Multiple Working Sets" name="Aggregate:CucumberJava:XP8800automationframework:">
+<workingSet IMemento.internal.id="CucumberJava"/>
+<workingSet IMemento.internal.id="XP8800automationframework"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1600672408771_7" label="Multiple Working Sets" name="Aggregate:amazonapp:CucumberJava:XP8800automationframework:">
+<workingSet IMemento.internal.id="amazonapp"/>
+<workingSet IMemento.internal.id="CucumberJava"/>
+<workingSet IMemento.internal.id="XP8800automationframework"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1600767896261_9" label="Multiple Working Sets" name="Aggregate:amazonapp:CucumberJava:fittr:XP8800automationframework:">
+<workingSet IMemento.internal.id="amazonapp"/>
+<workingSet IMemento.internal.id="CucumberJava"/>
+<workingSet IMemento.internal.id="fittr"/>
+<workingSet IMemento.internal.id="XP8800automationframework"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1600947276694_13" label="Multiple Working Sets" name="Aggregate:fittr:xp8800:XP8800automationframework:">
+<workingSet IMemento.internal.id="fittr"/>
+<workingSet IMemento.internal.id="xp8800"/>
+<workingSet IMemento.internal.id="XP8800automationframework"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1600947294328_14" label="Multiple Working Sets" name="Aggregate:fittr:techm:xp8800:XP8800automationframework:">
+<workingSet IMemento.internal.id="fittr"/>
+<workingSet IMemento.internal.id="techm"/>
+<workingSet IMemento.internal.id="xp8800"/>
+<workingSet IMemento.internal.id="XP8800automationframework"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1600955570749_16" label="Multiple Working Sets" name="Aggregate:fittr:msg:techm:xp8800:XP8800automationframework:">
+<workingSet IMemento.internal.id="fittr"/>
+<workingSet IMemento.internal.id="msg"/>
+<workingSet IMemento.internal.id="techm"/>
+<workingSet IMemento.internal.id="xp8800"/>
+<workingSet IMemento.internal.id="XP8800automationframework"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1601020523873_18" label="Multiple Working Sets" name="Aggregate:fittr:flipkart:msg:techm:xp8800:XP8800automationframework:">
+<workingSet IMemento.internal.id="fittr"/>
+<workingSet IMemento.internal.id="flipkart"/>
+<workingSet IMemento.internal.id="msg"/>
+<workingSet IMemento.internal.id="techm"/>
+<workingSet IMemento.internal.id="xp8800"/>
+<workingSet IMemento.internal.id="XP8800automationframework"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1601036670280_19" label="Multiple Working Sets" name="Aggregate:amazonapp:fittr:flipkart:msg:techm:xp8800:XP8800automationframework:">
+<workingSet IMemento.internal.id="amazonapp"/>
+<workingSet IMemento.internal.id="fittr"/>
+<workingSet IMemento.internal.id="flipkart"/>
+<workingSet IMemento.internal.id="msg"/>
+<workingSet IMemento.internal.id="techm"/>
+<workingSet IMemento.internal.id="xp8800"/>
+<workingSet IMemento.internal.id="XP8800automationframework"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1601036712105_20" label="Multiple Working Sets" name="Aggregate:amazonapp:CucumberJava:fittr:flipkart:msg:techm:test:xp8800:XP8800automationframework:">
+<workingSet IMemento.internal.id="amazonapp"/>
+<workingSet IMemento.internal.id="CucumberJava"/>
+<workingSet IMemento.internal.id="fittr"/>
+<workingSet IMemento.internal.id="flipkart"/>
+<workingSet IMemento.internal.id="msg"/>
+<workingSet IMemento.internal.id="techm"/>
+<workingSet IMemento.internal.id="test"/>
+<workingSet IMemento.internal.id="xp8800"/>
+<workingSet IMemento.internal.id="XP8800automationframework"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1601128337202_24" label="Multiple Working Sets" name="Aggregate:amazonapp:CucumberJava:fittr:flipkart:maz:msg:techm:test:xp8800:XP8800automationframework:">
+<workingSet IMemento.internal.id="amazonapp"/>
+<workingSet IMemento.internal.id="CucumberJava"/>
+<workingSet IMemento.internal.id="fittr"/>
+<workingSet IMemento.internal.id="flipkart"/>
+<workingSet IMemento.internal.id="maz"/>
+<workingSet IMemento.internal.id="msg"/>
+<workingSet IMemento.internal.id="techm"/>
+<workingSet IMemento.internal.id="test"/>
+<workingSet IMemento.internal.id="xp8800"/>
+<workingSet IMemento.internal.id="XP8800automationframework"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1601201646302_24" label="Multiple Working Sets" name="Aggregate:amazonapp:concepts:CucumberJava:fittr:flipkart:maz:msg:techm:test:xp8800:XP8800automationframework:">
+<workingSet IMemento.internal.id="amazonapp"/>
+<workingSet IMemento.internal.id="concepts"/>
+<workingSet IMemento.internal.id="CucumberJava"/>
+<workingSet IMemento.internal.id="fittr"/>
+<workingSet IMemento.internal.id="flipkart"/>
+<workingSet IMemento.internal.id="maz"/>
+<workingSet IMemento.internal.id="msg"/>
+<workingSet IMemento.internal.id="techm"/>
+<workingSet IMemento.internal.id="test"/>
+<workingSet IMemento.internal.id="xp8800"/>
+<workingSet IMemento.internal.id="XP8800automationframework"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1602155530426_26" label="Multiple Working Sets" name="Aggregate:amazonapp:concepts:CucumberJava:fittr:fittrapplication_BDD:flipkart:maz:msg:techm:test:xp8800:XP8800automationframework:">
+<workingSet IMemento.internal.id="amazonapp"/>
+<workingSet IMemento.internal.id="concepts"/>
+<workingSet IMemento.internal.id="CucumberJava"/>
+<workingSet IMemento.internal.id="fittr"/>
+<workingSet IMemento.internal.id="fittrapplication_BDD"/>
+<workingSet IMemento.internal.id="flipkart"/>
+<workingSet IMemento.internal.id="maz"/>
+<workingSet IMemento.internal.id="msg"/>
+<workingSet IMemento.internal.id="techm"/>
+<workingSet IMemento.internal.id="test"/>
+<workingSet IMemento.internal.id="xp8800"/>
+<workingSet IMemento.internal.id="XP8800automationframework"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1603019216155_28" label="Multiple Working Sets" name="Aggregate:amazonapp:concepts:CucumberJava:fittr:fittrapplication_BDD:flipkart:maz:msg:techm:test:webapp:xp8800:XP8800automationframework:">
+<workingSet IMemento.internal.id="amazonapp"/>
+<workingSet IMemento.internal.id="concepts"/>
+<workingSet IMemento.internal.id="CucumberJava"/>
+<workingSet IMemento.internal.id="fittr"/>
+<workingSet IMemento.internal.id="fittrapplication_BDD"/>
+<workingSet IMemento.internal.id="flipkart"/>
+<workingSet IMemento.internal.id="maz"/>
+<workingSet IMemento.internal.id="msg"/>
+<workingSet IMemento.internal.id="techm"/>
+<workingSet IMemento.internal.id="test"/>
+<workingSet IMemento.internal.id="webapp"/>
+<workingSet IMemento.internal.id="xp8800"/>
+<workingSet IMemento.internal.id="XP8800automationframework"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1605611683961_30" label="Multiple Working Sets" name="Aggregate:amazonapp:concepts:CucumberJava:fittr:fittrapplication_BDD:flipkart:maz:msg:restapi:techm:test:webapp:xp8800:XP8800automationframework:">
+<workingSet IMemento.internal.id="amazonapp"/>
+<workingSet IMemento.internal.id="concepts"/>
+<workingSet IMemento.internal.id="CucumberJava"/>
+<workingSet IMemento.internal.id="fittr"/>
+<workingSet IMemento.internal.id="fittrapplication_BDD"/>
+<workingSet IMemento.internal.id="flipkart"/>
+<workingSet IMemento.internal.id="maz"/>
+<workingSet IMemento.internal.id="msg"/>
+<workingSet IMemento.internal.id="restapi"/>
+<workingSet IMemento.internal.id="techm"/>
+<workingSet IMemento.internal.id="test"/>
+<workingSet IMemento.internal.id="webapp"/>
+<workingSet IMemento.internal.id="xp8800"/>
+<workingSet IMemento.internal.id="XP8800automationframework"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1606987610600_32" label="Multiple Working Sets" name="Aggregate:amazonapp:concepts:CucumberJava:fittr:fittrapplication_BDD:flipkart:maz:msg:restapi:techm:test:webapp:xp8800:XP8800automationframework:yara:">
+<workingSet IMemento.internal.id="amazonapp"/>
+<workingSet IMemento.internal.id="concepts"/>
+<workingSet IMemento.internal.id="CucumberJava"/>
+<workingSet IMemento.internal.id="fittr"/>
+<workingSet IMemento.internal.id="fittrapplication_BDD"/>
+<workingSet IMemento.internal.id="flipkart"/>
+<workingSet IMemento.internal.id="maz"/>
+<workingSet IMemento.internal.id="msg"/>
+<workingSet IMemento.internal.id="restapi"/>
+<workingSet IMemento.internal.id="techm"/>
+<workingSet IMemento.internal.id="test"/>
+<workingSet IMemento.internal.id="webapp"/>
+<workingSet IMemento.internal.id="xp8800"/>
+<workingSet IMemento.internal.id="XP8800automationframework"/>
+<workingSet IMemento.internal.id="yara"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1607931109025_34" label="Multiple Working Sets" name="Aggregate:amazonapp:concepts:CucumberJava:fittr:fittrapplication_BDD:flipkart:maz:msg:restapi:techm:test:testng_concepts:webapp:xp8800:XP8800automationframework:yara:">
+<workingSet IMemento.internal.id="amazonapp"/>
+<workingSet IMemento.internal.id="concepts"/>
+<workingSet IMemento.internal.id="CucumberJava"/>
+<workingSet IMemento.internal.id="fittr"/>
+<workingSet IMemento.internal.id="fittrapplication_BDD"/>
+<workingSet IMemento.internal.id="flipkart"/>
+<workingSet IMemento.internal.id="maz"/>
+<workingSet IMemento.internal.id="msg"/>
+<workingSet IMemento.internal.id="restapi"/>
+<workingSet IMemento.internal.id="techm"/>
+<workingSet IMemento.internal.id="test"/>
+<workingSet IMemento.internal.id="testng_concepts"/>
+<workingSet IMemento.internal.id="webapp"/>
+<workingSet IMemento.internal.id="xp8800"/>
+<workingSet IMemento.internal.id="XP8800automationframework"/>
+<workingSet IMemento.internal.id="yara"/>
+</workingSet>
+<mruList name="CucumberJava"/>
+</workingSetManager>

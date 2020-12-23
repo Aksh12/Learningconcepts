@@ -1,0 +1,30 @@
+package otherFeatures;
+
+import org.testng.annotations.Test;
+
+public class TimeOutExample {
+	
+	@Test(timeOut=10000)
+	public void test1() throws InterruptedException {
+		
+		Thread.sleep(6000);
+		for(;;) {
+			System.out.println("test1");
+		}
+		
+		
+	}
+	
+	@Test
+	public void test2() throws InterruptedException {
+		
+		Thread.sleep(6000);
+		for(;;) {
+			System.out.println("test2");	
+		}		
+		
+
+	}
+
+
+}
